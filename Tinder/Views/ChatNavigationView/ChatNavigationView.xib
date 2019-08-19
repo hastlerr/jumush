@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Raleway-Bold.ttf">
+            <string>Raleway-Bold</string>
+        </array>
+        <array key="Raleway-Regular.ttf">
+            <string>Raleway-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ChatNavigationView" customModule="Tinder" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="329" height="42"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="olt-9t-4qH">
+                    <rect key="frame" x="0.0" y="4.5" width="271" height="0.0"/>
+                    <fontDescription key="fontDescription" name="Raleway-Bold" family="Raleway" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" tag="3" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vL6-OZ-JMB">
+                    <rect key="frame" x="0.0" y="4.5" width="271" height="0.0"/>
+                    <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="12"/>
+                    <color key="textColor" red="0.46666666666666667" green="0.50196078431372548" blue="0.56862745098039214" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="1" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1rN-h6-98A">
+                    <rect key="frame" x="286" y="4.5" width="33" height="33"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="33" id="Kj8-eq-IUS"/>
+                        <constraint firstAttribute="width" secondItem="1rN-h6-98A" secondAttribute="height" multiplier="1:1" id="lis-0L-opt"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                            <real key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                            <color key="value" red="0.46666666670000001" green="0.50196078430000002" blue="0.56862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mqB-t4-VAa">
+                    <rect key="frame" x="0.0" y="0.0" width="329" height="42"/>
+                    <connections>
+                        <action selector="openChatDetail:" destination="iN0-l3-epB" eventType="touchUpInside" id="ndN-uF-vAP"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="vL6-OZ-JMB" firstAttribute="leading" secondItem="olt-9t-4qH" secondAttribute="leading" id="8Eb-HI-Ey6"/>
+                <constraint firstItem="vL6-OZ-JMB" firstAttribute="top" secondItem="olt-9t-4qH" secondAttribute="bottom" id="8J0-Uy-fX7"/>
+                <constraint firstItem="olt-9t-4qH" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="JHe-p1-z8e"/>
+                <constraint firstItem="mqB-t4-VAa" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="TbY-5a-T06"/>
+                <constraint firstItem="olt-9t-4qH" firstAttribute="top" secondItem="1rN-h6-98A" secondAttribute="top" id="WL5-VX-Gfz"/>
+                <constraint firstItem="vL6-OZ-JMB" firstAttribute="trailing" secondItem="olt-9t-4qH" secondAttribute="trailing" id="Ypl-GN-2Mi"/>
+                <constraint firstAttribute="trailing" secondItem="mqB-t4-VAa" secondAttribute="trailing" id="fn0-oC-cbL"/>
+                <constraint firstAttribute="trailing" secondItem="1rN-h6-98A" secondAttribute="trailing" constant="10" id="hOD-lb-YwP"/>
+                <constraint firstAttribute="bottom" secondItem="mqB-t4-VAa" secondAttribute="bottom" id="lbz-sG-rg1"/>
+                <constraint firstItem="1rN-h6-98A" firstAttribute="leading" secondItem="olt-9t-4qH" secondAttribute="trailing" constant="15" id="lfb-dn-8ns"/>
+                <constraint firstItem="mqB-t4-VAa" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="nSK-LD-cJj"/>
+                <constraint firstItem="1rN-h6-98A" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="ujG-fX-g46"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="nameLabel" destination="olt-9t-4qH" id="ZLq-CT-r5L"/>
+            </connections>
+            <point key="canvasLocation" x="-232.80000000000001" y="-424.58770614692656"/>
+        </view>
+    </objects>
+</document>

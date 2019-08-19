@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Raleway-Black.ttf">
+            <string>Raleway-Black</string>
+        </array>
+        <array key="Raleway-ExtraBold.ttf">
+            <string>Raleway-ExtraBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="260" id="aSp-I1-Sty" customClass="ProfileEducationHeaderTVCell" customModule="Tinder" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="514" height="260"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="aSp-I1-Sty" id="GZi-Xw-gzr">
+                <rect key="frame" x="0.0" y="0.0" width="514" height="259.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zmO-cj-YKi">
+                        <rect key="frame" x="217" y="22" width="80" height="80"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gxw-y2-czD">
+                                <rect key="frame" x="5" y="5" width="70" height="70"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="35"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="gxw-y2-czD" secondAttribute="trailing" constant="5" id="Gkd-z6-FFi"/>
+                            <constraint firstAttribute="bottom" secondItem="gxw-y2-czD" secondAttribute="bottom" constant="5" id="HsN-3R-IBt"/>
+                            <constraint firstItem="gxw-y2-czD" firstAttribute="leading" secondItem="zmO-cj-YKi" secondAttribute="leading" constant="5" id="Z4T-xj-UAY"/>
+                            <constraint firstAttribute="width" constant="80" id="eRo-A6-LJZ"/>
+                            <constraint firstAttribute="width" secondItem="zmO-cj-YKi" secondAttribute="height" multiplier="1:1" id="k8P-hD-Lm0"/>
+                            <constraint firstItem="gxw-y2-czD" firstAttribute="top" secondItem="zmO-cj-YKi" secondAttribute="top" constant="5" id="tYS-pb-xGX"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="40"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" red="0.86274509799999999" green="0.87450980389999999" blue="0.90196078430000004" alpha="1" colorSpace="calibratedRGB"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F3m-9P-jgX">
+                        <rect key="frame" x="10" y="117" width="494" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="1te-Ol-T4c"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Raleway-Black" family="Raleway" pointSize="20"/>
+                        <color key="textColor" red="0.14509803921568626" green="0.19607843137254902" blue="0.29803921568627451" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="О КОМПАНИИ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="laf-UG-w4K">
+                        <rect key="frame" x="48" y="186" width="446" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="xDL-ey-ye9"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Raleway-ExtraBold" family="Raleway" pointSize="10"/>
+                        <color key="textColor" red="0.1450980392" green="0.1960784314" blue="0.29803921570000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_education" translatesAutoresizingMaskIntoConstraints="NO" id="6mF-T9-VX1">
+                        <rect key="frame" x="20" y="183.5" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="20" id="FEv-7J-UBF"/>
+                            <constraint firstAttribute="height" constant="20" id="p6q-ff-bLE"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="6mF-T9-VX1" firstAttribute="centerY" secondItem="laf-UG-w4K" secondAttribute="centerY" id="2jf-Da-LIk"/>
+                    <constraint firstItem="F3m-9P-jgX" firstAttribute="leading" secondItem="GZi-Xw-gzr" secondAttribute="leading" constant="10" id="80b-U8-CL1"/>
+                    <constraint firstItem="F3m-9P-jgX" firstAttribute="top" secondItem="zmO-cj-YKi" secondAttribute="bottom" constant="15" id="AZY-9r-9MQ"/>
+                    <constraint firstItem="zmO-cj-YKi" firstAttribute="width" secondItem="zmO-cj-YKi" secondAttribute="height" multiplier="1:1" id="Ddh-ys-Szq"/>
+                    <constraint firstItem="laf-UG-w4K" firstAttribute="leading" secondItem="6mF-T9-VX1" secondAttribute="trailing" constant="8" id="L8z-KN-vL1"/>
+                    <constraint firstItem="laf-UG-w4K" firstAttribute="top" secondItem="F3m-9P-jgX" secondAttribute="bottom" constant="44" id="YUK-0s-gPG"/>
+                    <constraint firstAttribute="trailing" secondItem="laf-UG-w4K" secondAttribute="trailing" constant="20" id="YwR-6V-UKa"/>
+                    <constraint firstAttribute="trailing" secondItem="F3m-9P-jgX" secondAttribute="trailing" constant="10" id="cFj-E5-ABh"/>
+                    <constraint firstItem="6mF-T9-VX1" firstAttribute="leading" secondItem="GZi-Xw-gzr" secondAttribute="leading" constant="20" id="eL2-vD-IxJ"/>
+                    <constraint firstItem="zmO-cj-YKi" firstAttribute="top" secondItem="GZi-Xw-gzr" secondAttribute="top" constant="22" id="qay-O9-DTe"/>
+                    <constraint firstItem="zmO-cj-YKi" firstAttribute="centerX" secondItem="GZi-Xw-gzr" secondAttribute="centerX" id="t56-5l-uyJ"/>
+                    <constraint firstItem="F3m-9P-jgX" firstAttribute="centerX" secondItem="GZi-Xw-gzr" secondAttribute="centerX" id="tvV-Zt-MH7"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="laf-UG-w4K" secondAttribute="bottom" constant="21" id="zS1-59-I4Z"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="Y1Q-hH-Yrt"/>
+            <connections>
+                <outlet property="nameLabel" destination="F3m-9P-jgX" id="lQg-Rp-UVO"/>
+                <outlet property="profileImageView" destination="gxw-y2-czD" id="bLf-rG-Huz"/>
+            </connections>
+            <point key="canvasLocation" x="129.59999999999999" y="-16.191904047976013"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ic_education" width="20" height="20"/>
+    </resources>
+</document>

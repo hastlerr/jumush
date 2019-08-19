@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Raleway-ExtraBold.ttf">
+            <string>Raleway-ExtraBold</string>
+        </array>
+        <array key="Raleway-Regular.ttf">
+            <string>Raleway-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="100" id="KGk-i7-Jjw" customClass="ApplicationCell" customModule="Tinder" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="382" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="382" height="99.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7og-L0-dMj">
+                        <rect key="frame" x="20" y="5" width="342" height="89.5"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cKz-67-i6X">
+                                <rect key="frame" x="16" y="21" width="48" height="48"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="McV-1v-X8b"/>
+                                    <constraint firstAttribute="width" constant="48" id="hh2-y6-00F"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="24"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.86274509803921573" green="0.87450980392156863" blue="0.90196078431372551" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="MPB-T8-Q3V">
+                                <rect key="frame" x="20" y="25" width="40" height="40"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="juM-vj-5Uh">
+                                <rect key="frame" x="80" y="26" width="242" height="0.0"/>
+                                <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="12"/>
+                                <color key="textColor" red="0.46666666666666667" green="0.50196078431372548" blue="0.56862745098039214" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yxM-aT-jxL">
+                                <rect key="frame" x="80" y="29" width="242" height="0.0"/>
+                                <fontDescription key="fontDescription" name="Raleway-ExtraBold" family="Raleway" pointSize="16"/>
+                                <color key="textColor" red="0.14509803921568626" green="0.19607843137254902" blue="0.29803921568627451" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="giH-Qb-2PS">
+                                <rect key="frame" x="308" y="10" width="24" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="24" id="7N7-Ph-BFm"/>
+                                    <constraint firstAttribute="height" constant="24" id="c8b-lx-eop"/>
+                                </constraints>
+                                <state key="normal" image="ic_more"/>
+                                <connections>
+                                    <action selector="showMenu:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="Z4S-K9-nyb"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="juM-vj-5Uh" secondAttribute="trailing" constant="20" id="0q6-RB-IbZ"/>
+                            <constraint firstItem="juM-vj-5Uh" firstAttribute="leading" secondItem="MPB-T8-Q3V" secondAttribute="trailing" constant="20" id="6Dn-d1-LT9"/>
+                            <constraint firstItem="cKz-67-i6X" firstAttribute="leading" secondItem="7og-L0-dMj" secondAttribute="leading" constant="16" id="9la-B2-7rM"/>
+                            <constraint firstItem="MPB-T8-Q3V" firstAttribute="top" secondItem="cKz-67-i6X" secondAttribute="top" constant="4" id="GLH-CM-ZQV"/>
+                            <constraint firstItem="MPB-T8-Q3V" firstAttribute="bottom" secondItem="cKz-67-i6X" secondAttribute="bottom" constant="-4" id="HnC-Wb-PWg"/>
+                            <constraint firstAttribute="trailing" secondItem="giH-Qb-2PS" secondAttribute="trailing" constant="10" id="IVn-0c-ZAS"/>
+                            <constraint firstItem="MPB-T8-Q3V" firstAttribute="trailing" secondItem="cKz-67-i6X" secondAttribute="trailing" constant="-4" id="Igp-hz-dlg"/>
+                            <constraint firstItem="giH-Qb-2PS" firstAttribute="top" secondItem="7og-L0-dMj" secondAttribute="top" constant="10" id="MU9-rr-wOp"/>
+                            <constraint firstItem="cKz-67-i6X" firstAttribute="top" relation="greaterThanOrEqual" secondItem="7og-L0-dMj" secondAttribute="top" constant="16" id="POO-Xp-r49"/>
+                            <constraint firstItem="juM-vj-5Uh" firstAttribute="top" secondItem="cKz-67-i6X" secondAttribute="top" constant="5" id="Ulw-r7-I2e"/>
+                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="cKz-67-i6X" secondAttribute="bottom" constant="16" id="gP7-RI-ZcT"/>
+                            <constraint firstItem="cKz-67-i6X" firstAttribute="centerY" secondItem="7og-L0-dMj" secondAttribute="centerY" id="iep-F7-CBA"/>
+                            <constraint firstItem="MPB-T8-Q3V" firstAttribute="leading" secondItem="cKz-67-i6X" secondAttribute="leading" constant="4" id="k9S-Mz-Lda"/>
+                            <constraint firstItem="yxM-aT-jxL" firstAttribute="top" secondItem="juM-vj-5Uh" secondAttribute="bottom" constant="3" id="mPm-9c-PJM"/>
+                            <constraint firstItem="yxM-aT-jxL" firstAttribute="leading" secondItem="juM-vj-5Uh" secondAttribute="leading" id="uS2-cC-LEU"/>
+                            <constraint firstItem="yxM-aT-jxL" firstAttribute="trailing" secondItem="juM-vj-5Uh" secondAttribute="trailing" id="zbe-v2-6bm"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="7og-L0-dMj" secondAttribute="trailing" constant="20" id="K0s-yE-opz"/>
+                    <constraint firstItem="7og-L0-dMj" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="REj-QX-eOu"/>
+                    <constraint firstAttribute="bottom" secondItem="7og-L0-dMj" secondAttribute="bottom" constant="5" id="eqY-fW-jtM"/>
+                    <constraint firstItem="7og-L0-dMj" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="w2Y-m3-Hgi"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="cardView" destination="7og-L0-dMj" id="Nrq-r1-eqq"/>
+                <outlet property="companyImageView" destination="MPB-T8-Q3V" id="nhD-XS-k3s"/>
+                <outlet property="sphereLabel" destination="juM-vj-5Uh" id="8e5-uj-kF0"/>
+                <outlet property="vacancyPositionLabel" destination="yxM-aT-jxL" id="Dgh-7c-Bhn"/>
+            </connections>
+            <point key="canvasLocation" x="65" y="82"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ic_more" width="24" height="24"/>
+    </resources>
+</document>

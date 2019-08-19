@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Raleway-Black.ttf">
+            <string>Raleway-Black</string>
+        </array>
+        <array key="Raleway-ExtraBold.ttf">
+            <string>Raleway-ExtraBold</string>
+        </array>
+        <array key="Raleway-Regular.ttf">
+            <string>Raleway-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--SettingsTVC-->
+        <scene sceneID="E5E-lj-b2A">
+            <objects>
+                <tableViewController storyboardIdentifier="SettingsTVC" id="Ijr-Xe-hab" customClass="SettingsTVC" customModule="Tinder" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="rar-QY-jla">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <sections>
+                            <tableViewSection headerTitle="" id="XyG-nV-f90">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="89" id="g2x-Lm-tVW">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="89"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="g2x-Lm-tVW" id="6RA-kc-5Zr">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="88.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Настройки" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Anm-GF-AnD">
+                                                    <rect key="frame" x="24" y="30" width="327" height="28.5"/>
+                                                    <fontDescription key="fontDescription" name="Raleway-Black" family="Raleway" pointSize="24"/>
+                                                    <color key="textColor" red="0.1450980392" green="0.1960784314" blue="0.29803921570000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="Anm-GF-AnD" firstAttribute="centerY" secondItem="6RA-kc-5Zr" secondAttribute="centerY" id="HUR-Zl-gaZ"/>
+                                                <constraint firstAttribute="trailing" secondItem="Anm-GF-AnD" secondAttribute="trailing" constant="24" id="R6w-ph-7Jm"/>
+                                                <constraint firstItem="Anm-GF-AnD" firstAttribute="leading" secondItem="6RA-kc-5Zr" secondAttribute="leading" constant="24" id="qc1-hT-pal"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <inset key="separatorInset" minX="1000" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="97" id="wFJ-Vh-npK">
+                                        <rect key="frame" x="0.0" y="89" width="375" height="97"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="wFJ-Vh-npK" id="Zim-2V-zUy">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="96.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Новые сообщения" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ewh-PH-sQ0">
+                                                    <rect key="frame" x="24" y="20" width="148" height="19"/>
+                                                    <fontDescription key="fontDescription" name="Raleway-ExtraBold" family="Raleway" pointSize="16"/>
+                                                    <color key="textColor" red="0.1450980392" green="0.1960784314" blue="0.29803921570000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Уведомлять когда приходят новые сообщения" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L29-fm-ZFZ">
+                                                    <rect key="frame" x="24" y="42.5" width="276" height="33"/>
+                                                    <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="14"/>
+                                                    <color key="textColor" red="0.46666666666666667" green="0.50196078431372548" blue="0.56862745098039214" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Vsl-Qe-STp">
+                                                    <rect key="frame" x="308" y="14" width="51" height="31"/>
+                                                    <color key="onTintColor" red="0.1450980392" green="0.1960784314" blue="0.29803921570000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <connections>
+                                                        <action selector="messageNotificationsChanged:" destination="Ijr-Xe-hab" eventType="valueChanged" id="eik-gg-TFR"/>
+                                                    </connections>
+                                                </switch>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="Vsl-Qe-STp" firstAttribute="centerY" secondItem="Ewh-PH-sQ0" secondAttribute="centerY" id="2e1-il-9xn"/>
+                                                <constraint firstAttribute="trailing" secondItem="L29-fm-ZFZ" secondAttribute="trailing" constant="75" id="3HY-jF-1oc"/>
+                                                <constraint firstItem="L29-fm-ZFZ" firstAttribute="top" secondItem="Ewh-PH-sQ0" secondAttribute="bottom" constant="3.5" id="LpG-gO-N2C"/>
+                                                <constraint firstAttribute="trailing" secondItem="Vsl-Qe-STp" secondAttribute="trailing" constant="18" id="NHu-W4-xos"/>
+                                                <constraint firstItem="Ewh-PH-sQ0" firstAttribute="top" secondItem="Zim-2V-zUy" secondAttribute="top" constant="20" id="aaA-aT-9c0"/>
+                                                <constraint firstItem="L29-fm-ZFZ" firstAttribute="leading" secondItem="Ewh-PH-sQ0" secondAttribute="leading" id="dBf-dt-A3V"/>
+                                                <constraint firstItem="Vsl-Qe-STp" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Ewh-PH-sQ0" secondAttribute="trailing" constant="20" id="rKE-Py-Mtr"/>
+                                                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="L29-fm-ZFZ" secondAttribute="bottom" constant="20" id="sxY-hm-14a"/>
+                                                <constraint firstItem="Ewh-PH-sQ0" firstAttribute="leading" secondItem="Zim-2V-zUy" secondAttribute="leading" constant="24" id="vKs-0n-6dh"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="97" id="bv8-Yx-oEc">
+                                        <rect key="frame" x="0.0" y="186" width="375" height="97"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="bv8-Yx-oEc" id="ddJ-JP-9sN">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="96.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ответы на запросы" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OPl-jx-nlk">
+                                                    <rect key="frame" x="24" y="20" width="154" height="19"/>
+                                                    <fontDescription key="fontDescription" name="Raleway-ExtraBold" family="Raleway" pointSize="16"/>
+                                                    <color key="textColor" red="0.1450980392" green="0.1960784314" blue="0.29803921570000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Уведомлять когда работодатели принимают запросы" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nct-Go-xYg">
+                                                    <rect key="frame" x="24" y="42.5" width="276" height="33"/>
+                                                    <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="14"/>
+                                                    <color key="textColor" red="0.46666666670000001" green="0.50196078430000002" blue="0.56862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="qs8-AL-fis">
+                                                    <rect key="frame" x="308" y="14" width="51" height="31"/>
+                                                    <color key="onTintColor" red="0.1450980392" green="0.1960784314" blue="0.29803921570000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <connections>
+                                                        <action selector="applicationNotificationsChanged:" destination="Ijr-Xe-hab" eventType="valueChanged" id="XXQ-gq-QdR"/>
+                                                    </connections>
+                                                </switch>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="qs8-AL-fis" secondAttribute="trailing" constant="18" id="1U2-eE-h2x"/>
+                                                <constraint firstItem="qs8-AL-fis" firstAttribute="centerY" secondItem="OPl-jx-nlk" secondAttribute="centerY" id="D6o-rX-eKB"/>
+                                                <constraint firstItem="OPl-jx-nlk" firstAttribute="leading" secondItem="ddJ-JP-9sN" secondAttribute="leading" constant="24" id="DPC-xF-dJV"/>
+                                                <constraint firstItem="nct-Go-xYg" firstAttribute="leading" secondItem="OPl-jx-nlk" secondAttribute="leading" id="UNg-J8-AOC"/>
+                                                <constraint firstItem="qs8-AL-fis" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="OPl-jx-nlk" secondAttribute="trailing" constant="20" id="d4i-yH-fm0"/>
+                                                <constraint firstItem="OPl-jx-nlk" firstAttribute="top" secondItem="ddJ-JP-9sN" secondAttribute="top" constant="20" id="ivD-9g-cWf"/>
+                                                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="nct-Go-xYg" secondAttribute="bottom" constant="20" id="kO6-fH-8An"/>
+                                                <constraint firstAttribute="trailing" secondItem="nct-Go-xYg" secondAttribute="trailing" constant="75" id="nPs-i5-DRc"/>
+                                                <constraint firstItem="nct-Go-xYg" firstAttribute="top" secondItem="OPl-jx-nlk" secondAttribute="bottom" constant="3.5" id="y7L-VY-1f1"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection headerTitle="" id="iUY-7p-s0H">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="60" id="YLQ-OZ-IPK">
+                                        <rect key="frame" x="0.0" y="283" width="375" height="60"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="YLQ-OZ-IPK" id="vFH-dW-bKD">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="59.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Пользовательское соглашение" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PIf-5E-eiR">
+                                                    <rect key="frame" x="24" y="20.5" width="327" height="19"/>
+                                                    <fontDescription key="fontDescription" name="Raleway-ExtraBold" family="Raleway" pointSize="16"/>
+                                                    <color key="textColor" red="0.1450980392" green="0.1960784314" blue="0.29803921570000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="PIf-5E-eiR" firstAttribute="centerY" secondItem="vFH-dW-bKD" secondAttribute="centerY" id="PYu-CP-Qcd"/>
+                                                <constraint firstAttribute="trailing" secondItem="PIf-5E-eiR" secondAttribute="trailing" constant="24" id="WCV-oY-Xe9"/>
+                                                <constraint firstItem="PIf-5E-eiR" firstAttribute="leading" secondItem="vFH-dW-bKD" secondAttribute="leading" constant="24" id="lRd-Vd-Y0V"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <inset key="separatorInset" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="60" id="Rgu-Vr-K7A">
+                                        <rect key="frame" x="0.0" y="343" width="375" height="60"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Rgu-Vr-K7A" id="fUs-aw-O2T">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="59.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="О приложении" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4LM-94-pDH">
+                                                    <rect key="frame" x="24" y="20.5" width="327" height="19"/>
+                                                    <fontDescription key="fontDescription" name="Raleway-ExtraBold" family="Raleway" pointSize="16"/>
+                                                    <color key="textColor" red="0.1450980392" green="0.1960784314" blue="0.29803921570000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="4LM-94-pDH" firstAttribute="centerY" secondItem="fUs-aw-O2T" secondAttribute="centerY" id="7tq-eT-qiH"/>
+                                                <constraint firstItem="4LM-94-pDH" firstAttribute="leading" secondItem="fUs-aw-O2T" secondAttribute="leading" constant="24" id="Uvu-Qw-z4P"/>
+                                                <constraint firstAttribute="trailing" secondItem="4LM-94-pDH" secondAttribute="trailing" constant="24" id="ihE-WH-icU"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <inset key="separatorInset" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="60" id="b1h-ve-RgU">
+                                        <rect key="frame" x="0.0" y="403" width="375" height="60"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="b1h-ve-RgU" id="esP-FY-NM4">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="59.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Выйти" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="scw-Ot-blG">
+                                                    <rect key="frame" x="24" y="20.5" width="327" height="19"/>
+                                                    <fontDescription key="fontDescription" name="Raleway-ExtraBold" family="Raleway" pointSize="16"/>
+                                                    <color key="textColor" red="0.1450980392" green="0.1960784314" blue="0.29803921570000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="scw-Ot-blG" firstAttribute="centerY" secondItem="esP-FY-NM4" secondAttribute="centerY" id="9uN-Gr-ukV"/>
+                                                <constraint firstItem="scw-Ot-blG" firstAttribute="leading" secondItem="esP-FY-NM4" secondAttribute="leading" constant="24" id="H7V-Gs-rN4"/>
+                                                <constraint firstAttribute="trailing" secondItem="scw-Ot-blG" secondAttribute="trailing" constant="24" id="e9P-s8-H8W"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <inset key="separatorInset" minX="1000" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="Ijr-Xe-hab" id="fVW-rf-bq1"/>
+                            <outlet property="delegate" destination="Ijr-Xe-hab" id="Ehy-7F-EGa"/>
+                        </connections>
+                    </tableView>
+                    <connections>
+                        <outlet property="applicationSwitch" destination="qs8-AL-fis" id="gfT-fk-PF5"/>
+                        <outlet property="messageSwitch" destination="Vsl-Qe-STp" id="m0q-mZ-0o8"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nSX-eh-7o6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-138.40000000000001" y="152.47376311844079"/>
+        </scene>
+        <!--About AppTVC-->
+        <scene sceneID="cDt-wk-ybz">
+            <objects>
+                <tableViewController storyboardIdentifier="AboutAppTVC" id="NWt-xa-ILC" customClass="AboutAppTVC" customModule="Tinder" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="B2g-D6-3Ce">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <sections>
+                            <tableViewSection id="6he-3U-DcS">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="507" id="1Tr-vc-lfb">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="507"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="1Tr-vc-lfb" id="dw9-U4-7DB">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="507"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="О приложении" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wd5-Uj-PzW">
+                                                    <rect key="frame" x="20" y="20" width="335" height="28.5"/>
+                                                    <fontDescription key="fontDescription" name="Raleway-ExtraBold" family="Raleway" pointSize="24"/>
+                                                    <color key="textColor" red="0.1450980392" green="0.1960784314" blue="0.29803921570000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="as4-xw-tcL">
+                                                    <rect key="frame" x="20" y="78.5" width="335" height="247"/>
+                                                    <mutableString key="text">JUMUSH – приложение созданное специально для образования прямого контакта между работодателем и работником в Кыргызстане. Если Вы работодатель в поисках высококвалифицированного сотрудника или же работник в поисках хорошей работы – то приложение JUMUSH для Вас. 
+Поиск работы никогда не был настолько простым. 
+
+Данное мобильное приложение финансировалось Федеральным правительством Германии через общество «Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH» в Кыргызстане в рамках деятельности пилотного проекта «Навыки для Реинтеграции»  2018 год.</mutableString>
+                                                    <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="14"/>
+                                                    <color key="textColor" red="0.46666666670000001" green="0.50196078430000002" blue="0.56862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="as4-xw-tcL" secondAttribute="bottom" constant="20" id="NQS-PL-wzq"/>
+                                                <constraint firstItem="as4-xw-tcL" firstAttribute="trailing" secondItem="Wd5-Uj-PzW" secondAttribute="trailing" id="UkB-gn-txk"/>
+                                                <constraint firstItem="as4-xw-tcL" firstAttribute="top" secondItem="Wd5-Uj-PzW" secondAttribute="bottom" constant="30" id="bbe-71-t9s"/>
+                                                <constraint firstItem="as4-xw-tcL" firstAttribute="leading" secondItem="Wd5-Uj-PzW" secondAttribute="leading" id="dvA-cn-B6B"/>
+                                                <constraint firstAttribute="trailing" secondItem="Wd5-Uj-PzW" secondAttribute="trailing" constant="20" id="ptb-XI-oUl"/>
+                                                <constraint firstItem="Wd5-Uj-PzW" firstAttribute="leading" secondItem="dw9-U4-7DB" secondAttribute="leading" constant="20" id="qzh-IO-x5f"/>
+                                                <constraint firstItem="Wd5-Uj-PzW" firstAttribute="top" secondItem="dw9-U4-7DB" secondAttribute="top" constant="20" id="sUz-8K-7OT"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <inset key="separatorInset" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="NWt-xa-ILC" id="ISr-cr-dFl"/>
+                            <outlet property="delegate" destination="NWt-xa-ILC" id="aF8-ZF-rb3"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Oe1-Sj-T6o" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="533.60000000000002" y="155.17241379310346"/>
+        </scene>
+        <!--User AgreementsTVC-->
+        <scene sceneID="2Ai-Xd-tMr">
+            <objects>
+                <tableViewController storyboardIdentifier="UserAgreementsTVC" id="Dkm-wb-mOR" customClass="UserAgreementsTVC" customModule="Tinder" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="h7A-xf-Y14">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <sections>
+                            <tableViewSection id="pKW-jh-sb1">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="507" id="n5B-8R-v4V">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="507"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="n5B-8R-v4V" id="YaD-a7-Swj">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="507"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Пользовательское соглашение" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dAg-5O-s5Z">
+                                                    <rect key="frame" x="20" y="20" width="335" height="56.5"/>
+                                                    <fontDescription key="fontDescription" name="Raleway-ExtraBold" family="Raleway" pointSize="24"/>
+                                                    <color key="textColor" red="0.1450980392" green="0.1960784314" blue="0.29803921570000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="woY-Df-b8Q">
+                                                    <rect key="frame" x="20" y="106.5" width="335" height="247"/>
+                                                    <mutableString key="text">JUMUSH – приложение созданное специально для образования прямого контакта между работодателем и работником в Кыргызстане. Если Вы работодатель в поисках высококвалифицированного сотрудника или же работник в поисках хорошей работы – то приложение JUMUSH для Вас. 
+Поиск работы никогда не был настолько простым. 
+
+Данное мобильное приложение финансировалось Федеральным правительством Германии через общество «Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH» в Кыргызстане в рамках деятельности пилотного проекта «Навыки для Реинтеграции»  2018 год.</mutableString>
+                                                    <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="14"/>
+                                                    <color key="textColor" red="0.46666666670000001" green="0.50196078430000002" blue="0.56862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="woY-Df-b8Q" secondAttribute="bottom" constant="20" id="Mdq-OA-irH"/>
+                                                <constraint firstAttribute="trailing" secondItem="dAg-5O-s5Z" secondAttribute="trailing" constant="20" id="ZvO-Oe-nqV"/>
+                                                <constraint firstItem="woY-Df-b8Q" firstAttribute="leading" secondItem="dAg-5O-s5Z" secondAttribute="leading" id="btg-Mg-F98"/>
+                                                <constraint firstItem="woY-Df-b8Q" firstAttribute="top" secondItem="dAg-5O-s5Z" secondAttribute="bottom" constant="30" id="iho-Mp-uqx"/>
+                                                <constraint firstItem="woY-Df-b8Q" firstAttribute="trailing" secondItem="dAg-5O-s5Z" secondAttribute="trailing" id="toG-H1-fsp"/>
+                                                <constraint firstItem="dAg-5O-s5Z" firstAttribute="top" secondItem="YaD-a7-Swj" secondAttribute="top" constant="20" id="x1l-xH-Xjz"/>
+                                                <constraint firstItem="dAg-5O-s5Z" firstAttribute="leading" secondItem="YaD-a7-Swj" secondAttribute="leading" constant="20" id="xkx-dE-vyr"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <inset key="separatorInset" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="Dkm-wb-mOR" id="ggs-l9-L2d"/>
+                            <outlet property="delegate" destination="Dkm-wb-mOR" id="VSW-3g-ZY0"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oh2-CZ-Il1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1173" y="156"/>
+        </scene>
+    </scenes>
+</document>

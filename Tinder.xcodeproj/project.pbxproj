@@ -1,0 +1,1058 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		030B7BBF2168BA9D00DBF903 /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030B7BBE2168BA9D00DBF903 /* Application.swift */; };
+		030B7BC12168BC9C00DBF903 /* BDManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030B7BC02168BC9C00DBF903 /* BDManager.swift */; };
+		0319C83C215B7CF9005A6D4C /* EmployerVacancyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0319C83B215B7CF9005A6D4C /* EmployerVacancyVC.swift */; };
+		0319C83F215B81E5005A6D4C /* EmployeeKolodaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0319C83D215B81E5005A6D4C /* EmployeeKolodaView.swift */; };
+		0319C840215B81E5005A6D4C /* EmployeeKolodaView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0319C83E215B81E5005A6D4C /* EmployeeKolodaView.xib */; };
+		0319C842215B8865005A6D4C /* VacancyApplicationsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0319C841215B8865005A6D4C /* VacancyApplicationsVC.swift */; };
+		0319C844215B8F1E005A6D4C /* EmployerChatsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0319C843215B8F1E005A6D4C /* EmployerChatsTVC.swift */; };
+		0319C846215B93A2005A6D4C /* EmployeeDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0319C845215B93A2005A6D4C /* EmployeeDetailVC.swift */; };
+		031E04EF214E532E00F4ED74 /* ApplicationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031E04ED214E532E00F4ED74 /* ApplicationCell.swift */; };
+		031E04F0214E532E00F4ED74 /* ApplicationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 031E04EE214E532E00F4ED74 /* ApplicationCell.xib */; };
+		031E04F2214E733200F4ED74 /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 031E04F1214E733200F4ED74 /* Settings.storyboard */; };
+		031E04F4214E767700F4ED74 /* SettingsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031E04F3214E767700F4ED74 /* SettingsTVC.swift */; };
+		031E04F6214E7A3800F4ED74 /* AboutAppTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031E04F5214E7A3800F4ED74 /* AboutAppTVC.swift */; };
+		03207EE4214A8776003EDF7C /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03207EE3214A8776003EDF7C /* LoginVC.swift */; };
+		03207EE6214AC7BD003EDF7C /* countries.txt in Resources */ = {isa = PBXBuildFile; fileRef = 03207EE5214AC7BD003EDF7C /* countries.txt */; };
+		03207EE8214AC837003EDF7C /* CountriesTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03207EE7214AC837003EDF7C /* CountriesTVC.swift */; };
+		03207EEC214AC87D003EDF7C /* CountriesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03207EEA214AC87C003EDF7C /* CountriesTableViewCell.xib */; };
+		03207EED214AC87D003EDF7C /* CountriesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03207EEB214AC87D003EDF7C /* CountriesTableViewCell.swift */; };
+		03207EEF214AC925003EDF7C /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03207EEE214AC925003EDF7C /* Country.swift */; };
+		03207EF1214ACB8F003EDF7C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03207EF0214ACB8F003EDF7C /* Constants.swift */; };
+		032124F72162755700C09423 /* Region.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032124F62162755700C09423 /* Region.swift */; };
+		032124F9216277C100C09423 /* Employer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032124F8216277C100C09423 /* Employer.swift */; };
+		032124FB216281DB00C09423 /* FileUploaderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032124FA216281DB00C09423 /* FileUploaderManager.swift */; };
+		032124FF2163927000C09423 /* Vacancy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032124FE2163927000C09423 /* Vacancy.swift */; };
+		03237969215373AA00566855 /* VacancyKolodaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03237967215373AA00566855 /* VacancyKolodaView.swift */; };
+		0323796A215373AA00566855 /* VacancyKolodaView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03237968215373AA00566855 /* VacancyKolodaView.xib */; };
+		0323796C21537FF700566855 /* VacanciesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0323796B21537FF700566855 /* VacanciesVC.swift */; };
+		0324E24F216B868D00E75402 /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0324E24E216B868D00E75402 /* Chat.swift */; };
+		0324E251216B87C600E75402 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0324E250216B87C600E75402 /* Message.swift */; };
+		033BD421215937B000E85BED /* AboutCompanyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033BD420215937B000E85BED /* AboutCompanyVC.swift */; };
+		033BD424215938F000E85BED /* AboutCompanyTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033BD422215938F000E85BED /* AboutCompanyTVCell.swift */; };
+		033BD425215938F000E85BED /* AboutCompanyTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 033BD423215938F000E85BED /* AboutCompanyTVCell.xib */; };
+		033BD42821593FA800E85BED /* HolderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033BD42621593FA800E85BED /* HolderView.swift */; };
+		033BD42921593FA800E85BED /* HolderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 033BD42721593FA800E85BED /* HolderView.xib */; };
+		033BD42B2159422D00E85BED /* ChatsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033BD42A2159422D00E85BED /* ChatsTVC.swift */; };
+		033BD42E215947C800E85BED /* ChatTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033BD42C215947C800E85BED /* ChatTVCell.swift */; };
+		033BD42F215947C800E85BED /* ChatTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 033BD42D215947C800E85BED /* ChatTVCell.xib */; };
+		033BD4322159519D00E85BED /* ProfileEducationHeaderTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033BD4302159519D00E85BED /* ProfileEducationHeaderTVCell.swift */; };
+		033BD4332159519D00E85BED /* ProfileEducationHeaderTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 033BD4312159519D00E85BED /* ProfileEducationHeaderTVCell.xib */; };
+		033C31B8215D17B300E23639 /* SelectVacancySphereTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033C31B6215D17B300E23639 /* SelectVacancySphereTVCell.swift */; };
+		033C31BB215D1F3400E23639 /* CreateVacancyTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033C31BA215D1F3400E23639 /* CreateVacancyTVC.swift */; };
+		033C31C5215DE46C00E23639 /* SelectVacancySheduleTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033C31C4215DE46C00E23639 /* SelectVacancySheduleTVC.swift */; };
+		033C31C8215DF6A300E23639 /* CloudStoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033C31C7215DF6A300E23639 /* CloudStoreManager.swift */; };
+		033C31CA215E038100E23639 /* SelectVacancySpheresTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033C31C9215E038100E23639 /* SelectVacancySpheresTVC.swift */; };
+		033C31CC215E067900E23639 /* Sphere.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033C31CB215E067900E23639 /* Sphere.swift */; };
+		0348DFD0215A9C68004A0D00 /* Employer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0348DFCF215A9C68004A0D00 /* Employer.storyboard */; };
+		0348DFD2215A9CB0004A0D00 /* EmployerVacanciesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0348DFD1215A9CB0004A0D00 /* EmployerVacanciesVC.swift */; };
+		0348DFD6215B3EE4004A0D00 /* CompanyVacancyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0348DFD4215B3EE4004A0D00 /* CompanyVacancyCell.swift */; };
+		0348DFD7215B3EE4004A0D00 /* CompanyVacancyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0348DFD5215B3EE4004A0D00 /* CompanyVacancyCell.xib */; };
+		0348DFDA215B4E0F004A0D00 /* CompanyVacanciesHeaderTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0348DFD8215B4E0F004A0D00 /* CompanyVacanciesHeaderTVCell.swift */; };
+		0348DFDB215B4E0F004A0D00 /* CompanyVacanciesHeaderTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0348DFD9215B4E0F004A0D00 /* CompanyVacanciesHeaderTVCell.xib */; };
+		0348DFDD215B5F43004A0D00 /* EmployerTBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0348DFDC215B5F43004A0D00 /* EmployerTBC.swift */; };
+		034BEC39216F364B006A68EC /* EmployeeInfoTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034BEC38216F364B006A68EC /* EmployeeInfoTVC.swift */; };
+		034BEC3B216F4307006A68EC /* APNSManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034BEC3A216F4307006A68EC /* APNSManager.swift */; };
+		034BEC3D2170B3AB006A68EC /* VacancyFilterTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034BEC3C2170B3AB006A68EC /* VacancyFilterTVC.swift */; };
+		034BEC402170B568006A68EC /* FilterSphereTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034BEC3E2170B568006A68EC /* FilterSphereTVCell.swift */; };
+		034BEC412170B568006A68EC /* FilterSphereTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 034BEC3F2170B568006A68EC /* FilterSphereTVCell.xib */; };
+		035AB8E0216E693E00AF57C5 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035AB8DF216E693E00AF57C5 /* ChatVC.swift */; };
+		035AB8E5216E6D8800AF57C5 /* MessageTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035AB8E3216E6D8800AF57C5 /* MessageTVCell.swift */; };
+		035AB8E6216E6D8800AF57C5 /* MessageTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 035AB8E4216E6D8800AF57C5 /* MessageTVCell.xib */; };
+		035AB8E9216E6F8500AF57C5 /* MyMessageTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035AB8E7216E6F8500AF57C5 /* MyMessageTVCell.swift */; };
+		035AB8EA216E6F8500AF57C5 /* MyMessageTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 035AB8E8216E6F8500AF57C5 /* MyMessageTVCell.xib */; };
+		035AB8EC216E726500AF57C5 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035AB8EB216E726500AF57C5 /* Group.swift */; };
+		035AB8F0216E8C1500AF57C5 /* DayHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035AB8EE216E8C1500AF57C5 /* DayHeaderView.swift */; };
+		035AB8F1216E8C1500AF57C5 /* DayHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 035AB8EF216E8C1500AF57C5 /* DayHeaderView.xib */; };
+		035AB8F5216F170A00AF57C5 /* ChatNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035AB8F3216F170A00AF57C5 /* ChatNavigationView.swift */; };
+		035AB8F6216F170A00AF57C5 /* ChatNavigationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 035AB8F4216F170A00AF57C5 /* ChatNavigationView.xib */; };
+		036053E72167B1FD0001DE0B /* Education.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036053E62167B1FD0001DE0B /* Education.swift */; };
+		036053E92167BC150001DE0B /* Work.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036053E82167BC150001DE0B /* Work.swift */; };
+		036053EB21686D3E0001DE0B /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036053EA21686D3E0001DE0B /* Employee.swift */; };
+		036CDD682146968E0019804E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036CDD672146968E0019804E /* AppDelegate.swift */; };
+		036CDD6A2146968E0019804E /* SplashVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036CDD692146968E0019804E /* SplashVC.swift */; };
+		036CDD6D2146968E0019804E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 036CDD6B2146968E0019804E /* Main.storyboard */; };
+		036CDD6F2146968F0019804E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 036CDD6E2146968F0019804E /* Assets.xcassets */; };
+		036CDD722146968F0019804E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 036CDD702146968F0019804E /* LaunchScreen.storyboard */; };
+		036CDD7A214699DE0019804E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 036CDD79214699DE0019804E /* GoogleService-Info.plist */; };
+		036CDD7C21469A110019804E /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 036CDD7B21469A110019804E /* Login.storyboard */; };
+		036CDD8221469F4C0019804E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036CDD8121469F4C0019804E /* Extensions.swift */; };
+		036CDD962146A9200019804E /* Raleway-Bold-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 036CDD842146A91B0019804E /* Raleway-Bold-Italic.ttf */; };
+		036CDD972146A9200019804E /* Raleway-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 036CDD852146A91B0019804E /* Raleway-Light.ttf */; };
+		036CDD982146A9200019804E /* Raleway-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 036CDD862146A91B0019804E /* Raleway-Black.ttf */; };
+		036CDD992146A9200019804E /* Raleway-Black-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 036CDD872146A91B0019804E /* Raleway-Black-Italic.ttf */; };
+		036CDD9A2146A9200019804E /* Raleway-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 036CDD882146A91C0019804E /* Raleway-Thin.ttf */; };
+		036CDD9B2146A9200019804E /* Raleway-Regular-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 036CDD892146A91C0019804E /* Raleway-Regular-Italic.ttf */; };
+		036CDD9C2146A9200019804E /* Raleway-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 036CDD8A2146A91C0019804E /* Raleway-SemiBold.ttf */; };
+		036CDD9D2146A9200019804E /* Raleway-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 036CDD8B2146A91C0019804E /* Raleway-Medium.ttf */; };
+		036CDD9E2146A9200019804E /* Raleway-ExtraLight-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 036CDD8C2146A91D0019804E /* Raleway-ExtraLight-Italic.ttf */; };
+		036CDD9F2146A9200019804E /* Raleway-Medium-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 036CDD8D2146A91D0019804E /* Raleway-Medium-Italic.ttf */; };
+		036CDDA02146A9200019804E /* Raleway-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 036CDD8E2146A91D0019804E /* Raleway-Regular.ttf */; };
+		036CDDA12146A9200019804E /* Raleway-SemiBold-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 036CDD8F2146A91E0019804E /* Raleway-SemiBold-Italic.ttf */; };
+		036CDDA22146A9200019804E /* Raleway-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 036CDD902146A91E0019804E /* Raleway-Bold.ttf */; };
+		036CDDA32146A9200019804E /* Raleway-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 036CDD912146A91F0019804E /* Raleway-ExtraBold.ttf */; };
+		036CDDA42146A9200019804E /* Raleway-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 036CDD922146A91F0019804E /* Raleway-ExtraLight.ttf */; };
+		036CDDA52146A9200019804E /* Raleway-Thin-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 036CDD932146A91F0019804E /* Raleway-Thin-Italic.ttf */; };
+		036CDDA62146A9200019804E /* Raleway-Light-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 036CDD942146A9200019804E /* Raleway-Light-Italic.ttf */; };
+		036CDDA72146A9200019804E /* Raleway-ExtraBold-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 036CDD952146A9200019804E /* Raleway-ExtraBold-Italic.ttf */; };
+		037811202174762B00B6669E /* UserAgreementsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0378111F2174762B00B6669E /* UserAgreementsTVC.swift */; };
+		037811432175ADFB00B6669E /* PushNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037811422175ADFB00B6669E /* PushNotification.swift */; };
+		037A193D21730EBF003591A4 /* AboutCompanyCardTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037A193B21730EBF003591A4 /* AboutCompanyCardTVCell.swift */; };
+		037A193E21730EBF003591A4 /* AboutCompanyCardTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 037A193C21730EBF003591A4 /* AboutCompanyCardTVCell.xib */; };
+		037A194121732184003591A4 /* FilterSalaryTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037A193F21732184003591A4 /* FilterSalaryTVCell.swift */; };
+		037A194221732184003591A4 /* FilterSalaryTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 037A194021732184003591A4 /* FilterSalaryTVCell.xib */; };
+		037A1945217337E3003591A4 /* FIlterSphereHeaderTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037A1943217337E3003591A4 /* FIlterSphereHeaderTVCell.swift */; };
+		037A1946217337E3003591A4 /* FIlterSphereHeaderTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 037A1944217337E3003591A4 /* FIlterSphereHeaderTVCell.xib */; };
+		037B62B3214D518900B359B6 /* EducationTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6BB2D2214D0E9300D9FAB6 /* EducationTVCell.swift */; };
+		039565DC2159552A004DFF17 /* ProfileExperienceHeaderTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039565DA2159552A004DFF17 /* ProfileExperienceHeaderTVCell.swift */; };
+		039565DD2159552A004DFF17 /* ProfileExperienceHeaderTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 039565DB2159552A004DFF17 /* ProfileExperienceHeaderTVCell.xib */; };
+		039565E0215955DF004DFF17 /* ProfileEducationTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039565DE215955DF004DFF17 /* ProfileEducationTVCell.swift */; };
+		039565E1215955DF004DFF17 /* ProfileEducationTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 039565DF215955DF004DFF17 /* ProfileEducationTVCell.xib */; };
+		039565E32159597C004DFF17 /* EmployeeProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039565E22159597C004DFF17 /* EmployeeProfileVC.swift */; };
+		039F09332154BC3600651FC5 /* Employee.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 039F09322154BC3600651FC5 /* Employee.storyboard */; };
+		039F09352154E98F00651FC5 /* VacancyDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039F09342154E98F00651FC5 /* VacancyDetailVC.swift */; };
+		039F09382154EF9C00651FC5 /* VacancyTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039F09362154EF9C00651FC5 /* VacancyTVCell.swift */; };
+		039F09392154EF9C00651FC5 /* VacancyTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 039F09372154EF9C00651FC5 /* VacancyTVCell.xib */; };
+		039F093C2154F2DE00651FC5 /* VacancyAboutCompanyTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039F093A2154F2DE00651FC5 /* VacancyAboutCompanyTVCell.swift */; };
+		039F093D2154F2DE00651FC5 /* VacancyAboutCompanyTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 039F093B2154F2DE00651FC5 /* VacancyAboutCompanyTVCell.xib */; };
+		03AFD1BE21483005009E060E /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AFD1BD21483005009E060E /* WelcomeVC.swift */; };
+		03BA49D1214D0CE200957C59 /* CodeConfirmationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BA49D0214D0CE200957C59 /* CodeConfirmationVC.swift */; };
+		03BA49D4214D186B00957C59 /* EmployeeTBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BA49D3214D186B00957C59 /* EmployeeTBC.swift */; };
+		03BA49D6214D1F5F00957C59 /* ApplicationsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BA49D5214D1F5F00957C59 /* ApplicationsTVC.swift */; };
+		03C4265D2161D5C90030C2DB /* RangeUISliderDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C426572161D5C90030C2DB /* RangeUISliderDelegate.swift */; };
+		03C4265E2161D5C90030C2DB /* Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C426582161D5C90030C2DB /* Gradient.swift */; };
+		03C4265F2161D5C90030C2DB /* Knob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C426592161D5C90030C2DB /* Knob.swift */; };
+		03C426602161D5C90030C2DB /* Bar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C4265A2161D5C90030C2DB /* Bar.swift */; };
+		03C426612161D5C90030C2DB /* Progress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C4265B2161D5C90030C2DB /* Progress.swift */; };
+		03C426622161D5C90030C2DB /* RangeUISlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C4265C2161D5C90030C2DB /* RangeUISlider.swift */; };
+		03C426642161DBB20030C2DB /* SelectVacancyPriceTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C426632161DBB20030C2DB /* SelectVacancyPriceTVC.swift */; };
+		03C4266621626C8B0030C2DB /* CreateCompanyTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C4266521626C8B0030C2DB /* CreateCompanyTVC.swift */; };
+		03D0E06B21803FB200C6D75A /* ResendCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D0E06921803FB200C6D75A /* ResendCodeView.swift */; };
+		03D0E06C21803FB200C6D75A /* ResendCodeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03D0E06A21803FB200C6D75A /* ResendCodeView.xib */; };
+		2E45F096215A9ABE00C78653 /* AddMoreTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E45F094215A9ABE00C78653 /* AddMoreTVCell.swift */; };
+		2E45F097215A9ABE00C78653 /* AddMoreTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E45F095215A9ABE00C78653 /* AddMoreTVCell.xib */; };
+		2E58C57A214D39BA00E13FD6 /* SignupInfoTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E58C579214D39BA00E13FD6 /* SignupInfoTVC.swift */; };
+		2E58C57C214D43D000E13FD6 /* SwitchEmployeTypeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E58C57B214D43D000E13FD6 /* SwitchEmployeTypeVC.swift */; };
+		2E58C57E214D53FD00E13FD6 /* ExperienceTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E6BB2D6214D24A400D9FAB6 /* ExperienceTVCell.xib */; };
+		2E6BB2D8214D24A600D9FAB6 /* ExperienceTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6BB2D7214D24A500D9FAB6 /* ExperienceTVCell.swift */; };
+		2E6BB2DA214D2AA600D9FAB6 /* SignUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E6BB2D9214D2AA600D9FAB6 /* SignUp.storyboard */; };
+		2EFCA17A2157D08C00B402BA /* ChooseItemTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFCA1792157D08C00B402BA /* ChooseItemTVC.swift */; };
+		2EFCA17D2157D15500B402BA /* СhooseItemTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFCA17B2157D15500B402BA /* СhooseItemTVCell.swift */; };
+		2EFCA17E2157D15500B402BA /* ChooseItemTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EFCA17C2157D15500B402BA /* ChooseItemTVCell.xib */; };
+		2EFCA17F2157F29E00B402BA /* EducationTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E6BB2D3214D0E9300D9FAB6 /* EducationTVCell.xib */; };
+		ED71EB99E7D6532C8F844EB0 /* Pods_Tinder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0524524A500EFA90E81CECD /* Pods_Tinder.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		030B7BBE2168BA9D00DBF903 /* Application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
+		030B7BC02168BC9C00DBF903 /* BDManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BDManager.swift; sourceTree = "<group>"; };
+		0319C83B215B7CF9005A6D4C /* EmployerVacancyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployerVacancyVC.swift; sourceTree = "<group>"; };
+		0319C83D215B81E5005A6D4C /* EmployeeKolodaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeKolodaView.swift; sourceTree = "<group>"; };
+		0319C83E215B81E5005A6D4C /* EmployeeKolodaView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmployeeKolodaView.xib; sourceTree = "<group>"; };
+		0319C841215B8865005A6D4C /* VacancyApplicationsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VacancyApplicationsVC.swift; sourceTree = "<group>"; };
+		0319C843215B8F1E005A6D4C /* EmployerChatsTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployerChatsTVC.swift; sourceTree = "<group>"; };
+		0319C845215B93A2005A6D4C /* EmployeeDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeDetailVC.swift; sourceTree = "<group>"; };
+		031E04ED214E532E00F4ED74 /* ApplicationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationCell.swift; sourceTree = "<group>"; };
+		031E04EE214E532E00F4ED74 /* ApplicationCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ApplicationCell.xib; sourceTree = "<group>"; };
+		031E04F1214E733200F4ED74 /* Settings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
+		031E04F3214E767700F4ED74 /* SettingsTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTVC.swift; sourceTree = "<group>"; };
+		031E04F5214E7A3800F4ED74 /* AboutAppTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutAppTVC.swift; sourceTree = "<group>"; };
+		03207EE3214A8776003EDF7C /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		03207EE5214AC7BD003EDF7C /* countries.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = countries.txt; sourceTree = "<group>"; };
+		03207EE7214AC837003EDF7C /* CountriesTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountriesTVC.swift; sourceTree = "<group>"; };
+		03207EEA214AC87C003EDF7C /* CountriesTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CountriesTableViewCell.xib; sourceTree = "<group>"; };
+		03207EEB214AC87D003EDF7C /* CountriesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountriesTableViewCell.swift; sourceTree = "<group>"; };
+		03207EEE214AC925003EDF7C /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		03207EF0214ACB8F003EDF7C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		032124F62162755700C09423 /* Region.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Region.swift; sourceTree = "<group>"; };
+		032124F8216277C100C09423 /* Employer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employer.swift; sourceTree = "<group>"; };
+		032124FA216281DB00C09423 /* FileUploaderManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileUploaderManager.swift; sourceTree = "<group>"; };
+		032124FE2163927000C09423 /* Vacancy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vacancy.swift; sourceTree = "<group>"; };
+		03237967215373AA00566855 /* VacancyKolodaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VacancyKolodaView.swift; sourceTree = "<group>"; };
+		03237968215373AA00566855 /* VacancyKolodaView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VacancyKolodaView.xib; sourceTree = "<group>"; };
+		0323796B21537FF700566855 /* VacanciesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VacanciesVC.swift; sourceTree = "<group>"; };
+		0324E24E216B868D00E75402 /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
+		0324E250216B87C600E75402 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		033BD420215937B000E85BED /* AboutCompanyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutCompanyVC.swift; sourceTree = "<group>"; };
+		033BD422215938F000E85BED /* AboutCompanyTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutCompanyTVCell.swift; sourceTree = "<group>"; };
+		033BD423215938F000E85BED /* AboutCompanyTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AboutCompanyTVCell.xib; sourceTree = "<group>"; };
+		033BD42621593FA800E85BED /* HolderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolderView.swift; sourceTree = "<group>"; };
+		033BD42721593FA800E85BED /* HolderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HolderView.xib; sourceTree = "<group>"; };
+		033BD42A2159422D00E85BED /* ChatsTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsTVC.swift; sourceTree = "<group>"; };
+		033BD42C215947C800E85BED /* ChatTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTVCell.swift; sourceTree = "<group>"; };
+		033BD42D215947C800E85BED /* ChatTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatTVCell.xib; sourceTree = "<group>"; };
+		033BD4302159519D00E85BED /* ProfileEducationHeaderTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEducationHeaderTVCell.swift; sourceTree = "<group>"; };
+		033BD4312159519D00E85BED /* ProfileEducationHeaderTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileEducationHeaderTVCell.xib; sourceTree = "<group>"; };
+		033C31B6215D17B300E23639 /* SelectVacancySphereTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectVacancySphereTVCell.swift; sourceTree = "<group>"; };
+		033C31BA215D1F3400E23639 /* CreateVacancyTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateVacancyTVC.swift; sourceTree = "<group>"; };
+		033C31C4215DE46C00E23639 /* SelectVacancySheduleTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectVacancySheduleTVC.swift; sourceTree = "<group>"; };
+		033C31C7215DF6A300E23639 /* CloudStoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudStoreManager.swift; sourceTree = "<group>"; };
+		033C31C9215E038100E23639 /* SelectVacancySpheresTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectVacancySpheresTVC.swift; sourceTree = "<group>"; };
+		033C31CB215E067900E23639 /* Sphere.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sphere.swift; sourceTree = "<group>"; };
+		0348DFCF215A9C68004A0D00 /* Employer.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Employer.storyboard; sourceTree = "<group>"; };
+		0348DFD1215A9CB0004A0D00 /* EmployerVacanciesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployerVacanciesVC.swift; sourceTree = "<group>"; };
+		0348DFD4215B3EE4004A0D00 /* CompanyVacancyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyVacancyCell.swift; sourceTree = "<group>"; };
+		0348DFD5215B3EE4004A0D00 /* CompanyVacancyCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CompanyVacancyCell.xib; sourceTree = "<group>"; };
+		0348DFD8215B4E0F004A0D00 /* CompanyVacanciesHeaderTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyVacanciesHeaderTVCell.swift; sourceTree = "<group>"; };
+		0348DFD9215B4E0F004A0D00 /* CompanyVacanciesHeaderTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CompanyVacanciesHeaderTVCell.xib; sourceTree = "<group>"; };
+		0348DFDC215B5F43004A0D00 /* EmployerTBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployerTBC.swift; sourceTree = "<group>"; };
+		034BEC38216F364B006A68EC /* EmployeeInfoTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeInfoTVC.swift; sourceTree = "<group>"; };
+		034BEC3A216F4307006A68EC /* APNSManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APNSManager.swift; sourceTree = "<group>"; };
+		034BEC3C2170B3AB006A68EC /* VacancyFilterTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VacancyFilterTVC.swift; sourceTree = "<group>"; };
+		034BEC3E2170B568006A68EC /* FilterSphereTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterSphereTVCell.swift; sourceTree = "<group>"; };
+		034BEC3F2170B568006A68EC /* FilterSphereTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FilterSphereTVCell.xib; sourceTree = "<group>"; };
+		035AB8DF216E693E00AF57C5 /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
+		035AB8E3216E6D8800AF57C5 /* MessageTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageTVCell.swift; sourceTree = "<group>"; };
+		035AB8E4216E6D8800AF57C5 /* MessageTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageTVCell.xib; sourceTree = "<group>"; };
+		035AB8E7216E6F8500AF57C5 /* MyMessageTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMessageTVCell.swift; sourceTree = "<group>"; };
+		035AB8E8216E6F8500AF57C5 /* MyMessageTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyMessageTVCell.xib; sourceTree = "<group>"; };
+		035AB8EB216E726500AF57C5 /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		035AB8EE216E8C1500AF57C5 /* DayHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayHeaderView.swift; sourceTree = "<group>"; };
+		035AB8EF216E8C1500AF57C5 /* DayHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DayHeaderView.xib; sourceTree = "<group>"; };
+		035AB8F3216F170A00AF57C5 /* ChatNavigationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatNavigationView.swift; sourceTree = "<group>"; };
+		035AB8F4216F170A00AF57C5 /* ChatNavigationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatNavigationView.xib; sourceTree = "<group>"; };
+		036053E62167B1FD0001DE0B /* Education.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Education.swift; sourceTree = "<group>"; };
+		036053E82167BC150001DE0B /* Work.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Work.swift; sourceTree = "<group>"; };
+		036053EA21686D3E0001DE0B /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
+		036CDD642146968D0019804E /* Tinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		036CDD672146968E0019804E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		036CDD692146968E0019804E /* SplashVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashVC.swift; sourceTree = "<group>"; };
+		036CDD6C2146968E0019804E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		036CDD6E2146968F0019804E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		036CDD712146968F0019804E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		036CDD732146968F0019804E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		036CDD79214699DE0019804E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		036CDD7B21469A110019804E /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		036CDD8121469F4C0019804E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		036CDD842146A91B0019804E /* Raleway-Bold-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Bold-Italic.ttf"; sourceTree = "<group>"; };
+		036CDD852146A91B0019804E /* Raleway-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Light.ttf"; sourceTree = "<group>"; };
+		036CDD862146A91B0019804E /* Raleway-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Black.ttf"; sourceTree = "<group>"; };
+		036CDD872146A91B0019804E /* Raleway-Black-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Black-Italic.ttf"; sourceTree = "<group>"; };
+		036CDD882146A91C0019804E /* Raleway-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Thin.ttf"; sourceTree = "<group>"; };
+		036CDD892146A91C0019804E /* Raleway-Regular-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Regular-Italic.ttf"; sourceTree = "<group>"; };
+		036CDD8A2146A91C0019804E /* Raleway-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-SemiBold.ttf"; sourceTree = "<group>"; };
+		036CDD8B2146A91C0019804E /* Raleway-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Medium.ttf"; sourceTree = "<group>"; };
+		036CDD8C2146A91D0019804E /* Raleway-ExtraLight-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-ExtraLight-Italic.ttf"; sourceTree = "<group>"; };
+		036CDD8D2146A91D0019804E /* Raleway-Medium-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Medium-Italic.ttf"; sourceTree = "<group>"; };
+		036CDD8E2146A91D0019804E /* Raleway-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Regular.ttf"; sourceTree = "<group>"; };
+		036CDD8F2146A91E0019804E /* Raleway-SemiBold-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-SemiBold-Italic.ttf"; sourceTree = "<group>"; };
+		036CDD902146A91E0019804E /* Raleway-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Bold.ttf"; sourceTree = "<group>"; };
+		036CDD912146A91F0019804E /* Raleway-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-ExtraBold.ttf"; sourceTree = "<group>"; };
+		036CDD922146A91F0019804E /* Raleway-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-ExtraLight.ttf"; sourceTree = "<group>"; };
+		036CDD932146A91F0019804E /* Raleway-Thin-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Thin-Italic.ttf"; sourceTree = "<group>"; };
+		036CDD942146A9200019804E /* Raleway-Light-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Light-Italic.ttf"; sourceTree = "<group>"; };
+		036CDD952146A9200019804E /* Raleway-ExtraBold-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-ExtraBold-Italic.ttf"; sourceTree = "<group>"; };
+		0378111F2174762B00B6669E /* UserAgreementsTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAgreementsTVC.swift; sourceTree = "<group>"; };
+		037811422175ADFB00B6669E /* PushNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotification.swift; sourceTree = "<group>"; };
+		037A193B21730EBF003591A4 /* AboutCompanyCardTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutCompanyCardTVCell.swift; sourceTree = "<group>"; };
+		037A193C21730EBF003591A4 /* AboutCompanyCardTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AboutCompanyCardTVCell.xib; sourceTree = "<group>"; };
+		037A193F21732184003591A4 /* FilterSalaryTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterSalaryTVCell.swift; sourceTree = "<group>"; };
+		037A194021732184003591A4 /* FilterSalaryTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FilterSalaryTVCell.xib; sourceTree = "<group>"; };
+		037A1943217337E3003591A4 /* FIlterSphereHeaderTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FIlterSphereHeaderTVCell.swift; sourceTree = "<group>"; };
+		037A1944217337E3003591A4 /* FIlterSphereHeaderTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FIlterSphereHeaderTVCell.xib; sourceTree = "<group>"; };
+		037A19472173711D003591A4 /* Tinder.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Tinder.entitlements; sourceTree = "<group>"; };
+		039565DA2159552A004DFF17 /* ProfileExperienceHeaderTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileExperienceHeaderTVCell.swift; sourceTree = "<group>"; };
+		039565DB2159552A004DFF17 /* ProfileExperienceHeaderTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileExperienceHeaderTVCell.xib; sourceTree = "<group>"; };
+		039565DE215955DF004DFF17 /* ProfileEducationTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEducationTVCell.swift; sourceTree = "<group>"; };
+		039565DF215955DF004DFF17 /* ProfileEducationTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileEducationTVCell.xib; sourceTree = "<group>"; };
+		039565E22159597C004DFF17 /* EmployeeProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeProfileVC.swift; sourceTree = "<group>"; };
+		039F09322154BC3600651FC5 /* Employee.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Employee.storyboard; sourceTree = "<group>"; };
+		039F09342154E98F00651FC5 /* VacancyDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VacancyDetailVC.swift; sourceTree = "<group>"; };
+		039F09362154EF9C00651FC5 /* VacancyTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VacancyTVCell.swift; sourceTree = "<group>"; };
+		039F09372154EF9C00651FC5 /* VacancyTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VacancyTVCell.xib; sourceTree = "<group>"; };
+		039F093A2154F2DE00651FC5 /* VacancyAboutCompanyTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VacancyAboutCompanyTVCell.swift; sourceTree = "<group>"; };
+		039F093B2154F2DE00651FC5 /* VacancyAboutCompanyTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VacancyAboutCompanyTVCell.xib; sourceTree = "<group>"; };
+		03AFD1BD21483005009E060E /* WelcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
+		03BA49D0214D0CE200957C59 /* CodeConfirmationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeConfirmationVC.swift; sourceTree = "<group>"; };
+		03BA49D3214D186B00957C59 /* EmployeeTBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeTBC.swift; sourceTree = "<group>"; };
+		03BA49D5214D1F5F00957C59 /* ApplicationsTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationsTVC.swift; sourceTree = "<group>"; };
+		03C426572161D5C90030C2DB /* RangeUISliderDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RangeUISliderDelegate.swift; sourceTree = "<group>"; };
+		03C426582161D5C90030C2DB /* Gradient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gradient.swift; sourceTree = "<group>"; };
+		03C426592161D5C90030C2DB /* Knob.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Knob.swift; sourceTree = "<group>"; };
+		03C4265A2161D5C90030C2DB /* Bar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bar.swift; sourceTree = "<group>"; };
+		03C4265B2161D5C90030C2DB /* Progress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Progress.swift; sourceTree = "<group>"; };
+		03C4265C2161D5C90030C2DB /* RangeUISlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RangeUISlider.swift; sourceTree = "<group>"; };
+		03C426632161DBB20030C2DB /* SelectVacancyPriceTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectVacancyPriceTVC.swift; sourceTree = "<group>"; };
+		03C4266521626C8B0030C2DB /* CreateCompanyTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateCompanyTVC.swift; sourceTree = "<group>"; };
+		03D0E06921803FB200C6D75A /* ResendCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResendCodeView.swift; sourceTree = "<group>"; };
+		03D0E06A21803FB200C6D75A /* ResendCodeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResendCodeView.xib; sourceTree = "<group>"; };
+		2E45F094215A9ABE00C78653 /* AddMoreTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMoreTVCell.swift; sourceTree = "<group>"; };
+		2E45F095215A9ABE00C78653 /* AddMoreTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddMoreTVCell.xib; sourceTree = "<group>"; };
+		2E58C579214D39BA00E13FD6 /* SignupInfoTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupInfoTVC.swift; sourceTree = "<group>"; };
+		2E58C57B214D43D000E13FD6 /* SwitchEmployeTypeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchEmployeTypeVC.swift; sourceTree = "<group>"; };
+		2E6BB2D2214D0E9300D9FAB6 /* EducationTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationTVCell.swift; sourceTree = "<group>"; };
+		2E6BB2D3214D0E9300D9FAB6 /* EducationTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EducationTVCell.xib; sourceTree = "<group>"; };
+		2E6BB2D6214D24A400D9FAB6 /* ExperienceTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExperienceTVCell.xib; sourceTree = "<group>"; };
+		2E6BB2D7214D24A500D9FAB6 /* ExperienceTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceTVCell.swift; sourceTree = "<group>"; };
+		2E6BB2D9214D2AA600D9FAB6 /* SignUp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignUp.storyboard; sourceTree = "<group>"; };
+		2EFCA1792157D08C00B402BA /* ChooseItemTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseItemTVC.swift; sourceTree = "<group>"; };
+		2EFCA17B2157D15500B402BA /* СhooseItemTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "СhooseItemTVCell.swift"; sourceTree = "<group>"; };
+		2EFCA17C2157D15500B402BA /* ChooseItemTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChooseItemTVCell.xib; sourceTree = "<group>"; };
+		7A138CD78A3245CA50EF1083 /* Pods-Tinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tinder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tinder/Pods-Tinder.debug.xcconfig"; sourceTree = "<group>"; };
+		B334054E69C59A329513C173 /* Pods-Tinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tinder.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tinder/Pods-Tinder.release.xcconfig"; sourceTree = "<group>"; };
+		C0524524A500EFA90E81CECD /* Pods_Tinder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tinder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		036CDD612146968D0019804E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED71EB99E7D6532C8F844EB0 /* Pods_Tinder.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03207EE9214AC869003EDF7C /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				03207EEB214AC87D003EDF7C /* CountriesTableViewCell.swift */,
+				03207EEA214AC87C003EDF7C /* CountriesTableViewCell.xib */,
+				2E6BB2D7214D24A500D9FAB6 /* ExperienceTVCell.swift */,
+				2E6BB2D6214D24A400D9FAB6 /* ExperienceTVCell.xib */,
+				2E6BB2D2214D0E9300D9FAB6 /* EducationTVCell.swift */,
+				2E6BB2D3214D0E9300D9FAB6 /* EducationTVCell.xib */,
+				031E04ED214E532E00F4ED74 /* ApplicationCell.swift */,
+				031E04EE214E532E00F4ED74 /* ApplicationCell.xib */,
+				03237967215373AA00566855 /* VacancyKolodaView.swift */,
+				03237968215373AA00566855 /* VacancyKolodaView.xib */,
+				039F09362154EF9C00651FC5 /* VacancyTVCell.swift */,
+				039F09372154EF9C00651FC5 /* VacancyTVCell.xib */,
+				039F093A2154F2DE00651FC5 /* VacancyAboutCompanyTVCell.swift */,
+				039F093B2154F2DE00651FC5 /* VacancyAboutCompanyTVCell.xib */,
+				2EFCA17B2157D15500B402BA /* СhooseItemTVCell.swift */,
+				2EFCA17C2157D15500B402BA /* ChooseItemTVCell.xib */,
+				033BD422215938F000E85BED /* AboutCompanyTVCell.swift */,
+				033BD423215938F000E85BED /* AboutCompanyTVCell.xib */,
+				033BD42621593FA800E85BED /* HolderView.swift */,
+				033BD42721593FA800E85BED /* HolderView.xib */,
+				033BD42C215947C800E85BED /* ChatTVCell.swift */,
+				033BD42D215947C800E85BED /* ChatTVCell.xib */,
+				033BD4302159519D00E85BED /* ProfileEducationHeaderTVCell.swift */,
+				033BD4312159519D00E85BED /* ProfileEducationHeaderTVCell.xib */,
+				039565DA2159552A004DFF17 /* ProfileExperienceHeaderTVCell.swift */,
+				039565DB2159552A004DFF17 /* ProfileExperienceHeaderTVCell.xib */,
+				039565DE215955DF004DFF17 /* ProfileEducationTVCell.swift */,
+				039565DF215955DF004DFF17 /* ProfileEducationTVCell.xib */,
+				0348DFD4215B3EE4004A0D00 /* CompanyVacancyCell.swift */,
+				0348DFD5215B3EE4004A0D00 /* CompanyVacancyCell.xib */,
+				0348DFD8215B4E0F004A0D00 /* CompanyVacanciesHeaderTVCell.swift */,
+				0348DFD9215B4E0F004A0D00 /* CompanyVacanciesHeaderTVCell.xib */,
+				2E45F094215A9ABE00C78653 /* AddMoreTVCell.swift */,
+				2E45F095215A9ABE00C78653 /* AddMoreTVCell.xib */,
+				0319C83D215B81E5005A6D4C /* EmployeeKolodaView.swift */,
+				0319C83E215B81E5005A6D4C /* EmployeeKolodaView.xib */,
+				033C31B6215D17B300E23639 /* SelectVacancySphereTVCell.swift */,
+				035AB8E3216E6D8800AF57C5 /* MessageTVCell.swift */,
+				035AB8E4216E6D8800AF57C5 /* MessageTVCell.xib */,
+				035AB8E7216E6F8500AF57C5 /* MyMessageTVCell.swift */,
+				035AB8E8216E6F8500AF57C5 /* MyMessageTVCell.xib */,
+				034BEC3E2170B568006A68EC /* FilterSphereTVCell.swift */,
+				034BEC3F2170B568006A68EC /* FilterSphereTVCell.xib */,
+				037A193B21730EBF003591A4 /* AboutCompanyCardTVCell.swift */,
+				037A193C21730EBF003591A4 /* AboutCompanyCardTVCell.xib */,
+				037A193F21732184003591A4 /* FilterSalaryTVCell.swift */,
+				037A194021732184003591A4 /* FilterSalaryTVCell.xib */,
+				037A1943217337E3003591A4 /* FIlterSphereHeaderTVCell.swift */,
+				037A1944217337E3003591A4 /* FIlterSphereHeaderTVCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		033C31C6215DF68D00E23639 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				033C31C7215DF6A300E23639 /* CloudStoreManager.swift */,
+				032124FA216281DB00C09423 /* FileUploaderManager.swift */,
+				030B7BC02168BC9C00DBF903 /* BDManager.swift */,
+				034BEC3A216F4307006A68EC /* APNSManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		035AB8ED216E8C0500AF57C5 /* DayHeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				035AB8EE216E8C1500AF57C5 /* DayHeaderView.swift */,
+				035AB8EF216E8C1500AF57C5 /* DayHeaderView.xib */,
+			);
+			path = DayHeaderView;
+			sourceTree = "<group>";
+		};
+		035AB8F2216F16F600AF57C5 /* ChatNavigationView */ = {
+			isa = PBXGroup;
+			children = (
+				035AB8F3216F170A00AF57C5 /* ChatNavigationView.swift */,
+				035AB8F4216F170A00AF57C5 /* ChatNavigationView.xib */,
+			);
+			path = ChatNavigationView;
+			sourceTree = "<group>";
+		};
+		036CDD5B2146968D0019804E = {
+			isa = PBXGroup;
+			children = (
+				036CDD662146968D0019804E /* Tinder */,
+				036CDD652146968D0019804E /* Products */,
+				F4D186084E42A88426A5A9DE /* Pods */,
+				B49B9A1FF8F11BA6A202E727 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		036CDD652146968D0019804E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				036CDD642146968D0019804E /* Tinder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		036CDD662146968D0019804E /* Tinder */ = {
+			isa = PBXGroup;
+			children = (
+				037A19472173711D003591A4 /* Tinder.entitlements */,
+				033C31C6215DF68D00E23639 /* Services */,
+				036CDD8021469F210019804E /* Utils */,
+				036CDD7F21469A350019804E /* Models */,
+				036CDD7E21469A270019804E /* Controllers */,
+				036CDD7D21469A190019804E /* Views */,
+				036CDD79214699DE0019804E /* GoogleService-Info.plist */,
+				03207EE5214AC7BD003EDF7C /* countries.txt */,
+				036CDD672146968E0019804E /* AppDelegate.swift */,
+				036CDD6E2146968F0019804E /* Assets.xcassets */,
+				036CDD702146968F0019804E /* LaunchScreen.storyboard */,
+				036CDD732146968F0019804E /* Info.plist */,
+			);
+			path = Tinder;
+			sourceTree = "<group>";
+		};
+		036CDD7D21469A190019804E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				03D0E06821803F9000C6D75A /* ResendCodeView */,
+				035AB8F2216F16F600AF57C5 /* ChatNavigationView */,
+				035AB8ED216E8C0500AF57C5 /* DayHeaderView */,
+				03207EE9214AC869003EDF7C /* Cells */,
+				036CDD6B2146968E0019804E /* Main.storyboard */,
+				036CDD7B21469A110019804E /* Login.storyboard */,
+				2E6BB2D9214D2AA600D9FAB6 /* SignUp.storyboard */,
+				031E04F1214E733200F4ED74 /* Settings.storyboard */,
+				039F09322154BC3600651FC5 /* Employee.storyboard */,
+				0348DFCF215A9C68004A0D00 /* Employer.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		036CDD7E21469A270019804E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				03207EE7214AC837003EDF7C /* CountriesTVC.swift */,
+				036CDD692146968E0019804E /* SplashVC.swift */,
+				03AFD1BD21483005009E060E /* WelcomeVC.swift */,
+				03207EE3214A8776003EDF7C /* LoginVC.swift */,
+				03BA49D0214D0CE200957C59 /* CodeConfirmationVC.swift */,
+				03BA49D3214D186B00957C59 /* EmployeeTBC.swift */,
+				03BA49D5214D1F5F00957C59 /* ApplicationsTVC.swift */,
+				2E58C579214D39BA00E13FD6 /* SignupInfoTVC.swift */,
+				2E58C57B214D43D000E13FD6 /* SwitchEmployeTypeVC.swift */,
+				2EFCA1792157D08C00B402BA /* ChooseItemTVC.swift */,
+				031E04F3214E767700F4ED74 /* SettingsTVC.swift */,
+				031E04F5214E7A3800F4ED74 /* AboutAppTVC.swift */,
+				0323796B21537FF700566855 /* VacanciesVC.swift */,
+				039F09342154E98F00651FC5 /* VacancyDetailVC.swift */,
+				033BD420215937B000E85BED /* AboutCompanyVC.swift */,
+				033BD42A2159422D00E85BED /* ChatsTVC.swift */,
+				039565E22159597C004DFF17 /* EmployeeProfileVC.swift */,
+				0348DFD1215A9CB0004A0D00 /* EmployerVacanciesVC.swift */,
+				0348DFDC215B5F43004A0D00 /* EmployerTBC.swift */,
+				0319C83B215B7CF9005A6D4C /* EmployerVacancyVC.swift */,
+				0319C841215B8865005A6D4C /* VacancyApplicationsVC.swift */,
+				0319C843215B8F1E005A6D4C /* EmployerChatsTVC.swift */,
+				0319C845215B93A2005A6D4C /* EmployeeDetailVC.swift */,
+				033C31BA215D1F3400E23639 /* CreateVacancyTVC.swift */,
+				033C31C4215DE46C00E23639 /* SelectVacancySheduleTVC.swift */,
+				033C31C9215E038100E23639 /* SelectVacancySpheresTVC.swift */,
+				03C426632161DBB20030C2DB /* SelectVacancyPriceTVC.swift */,
+				03C4266521626C8B0030C2DB /* CreateCompanyTVC.swift */,
+				035AB8DF216E693E00AF57C5 /* ChatVC.swift */,
+				034BEC38216F364B006A68EC /* EmployeeInfoTVC.swift */,
+				034BEC3C2170B3AB006A68EC /* VacancyFilterTVC.swift */,
+				0378111F2174762B00B6669E /* UserAgreementsTVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		036CDD7F21469A350019804E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				03207EEE214AC925003EDF7C /* Country.swift */,
+				033C31CB215E067900E23639 /* Sphere.swift */,
+				032124F62162755700C09423 /* Region.swift */,
+				032124F8216277C100C09423 /* Employer.swift */,
+				032124FE2163927000C09423 /* Vacancy.swift */,
+				036053E62167B1FD0001DE0B /* Education.swift */,
+				036053E82167BC150001DE0B /* Work.swift */,
+				036053EA21686D3E0001DE0B /* Employee.swift */,
+				030B7BBE2168BA9D00DBF903 /* Application.swift */,
+				0324E24E216B868D00E75402 /* Chat.swift */,
+				0324E250216B87C600E75402 /* Message.swift */,
+				037811422175ADFB00B6669E /* PushNotification.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		036CDD8021469F210019804E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				03C426562161D5970030C2DB /* RangeSlider */,
+				036CDD832146A8F50019804E /* Fonts */,
+				036CDD8121469F4C0019804E /* Extensions.swift */,
+				03207EF0214ACB8F003EDF7C /* Constants.swift */,
+				035AB8EB216E726500AF57C5 /* Group.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		036CDD832146A8F50019804E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				036CDD872146A91B0019804E /* Raleway-Black-Italic.ttf */,
+				036CDD862146A91B0019804E /* Raleway-Black.ttf */,
+				036CDD842146A91B0019804E /* Raleway-Bold-Italic.ttf */,
+				036CDD902146A91E0019804E /* Raleway-Bold.ttf */,
+				036CDD952146A9200019804E /* Raleway-ExtraBold-Italic.ttf */,
+				036CDD912146A91F0019804E /* Raleway-ExtraBold.ttf */,
+				036CDD8C2146A91D0019804E /* Raleway-ExtraLight-Italic.ttf */,
+				036CDD922146A91F0019804E /* Raleway-ExtraLight.ttf */,
+				036CDD942146A9200019804E /* Raleway-Light-Italic.ttf */,
+				036CDD852146A91B0019804E /* Raleway-Light.ttf */,
+				036CDD8D2146A91D0019804E /* Raleway-Medium-Italic.ttf */,
+				036CDD8B2146A91C0019804E /* Raleway-Medium.ttf */,
+				036CDD892146A91C0019804E /* Raleway-Regular-Italic.ttf */,
+				036CDD8E2146A91D0019804E /* Raleway-Regular.ttf */,
+				036CDD8F2146A91E0019804E /* Raleway-SemiBold-Italic.ttf */,
+				036CDD8A2146A91C0019804E /* Raleway-SemiBold.ttf */,
+				036CDD932146A91F0019804E /* Raleway-Thin-Italic.ttf */,
+				036CDD882146A91C0019804E /* Raleway-Thin.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		03C426562161D5970030C2DB /* RangeSlider */ = {
+			isa = PBXGroup;
+			children = (
+				03C4265A2161D5C90030C2DB /* Bar.swift */,
+				03C426582161D5C90030C2DB /* Gradient.swift */,
+				03C426592161D5C90030C2DB /* Knob.swift */,
+				03C4265B2161D5C90030C2DB /* Progress.swift */,
+				03C4265C2161D5C90030C2DB /* RangeUISlider.swift */,
+				03C426572161D5C90030C2DB /* RangeUISliderDelegate.swift */,
+			);
+			path = RangeSlider;
+			sourceTree = "<group>";
+		};
+		03D0E06821803F9000C6D75A /* ResendCodeView */ = {
+			isa = PBXGroup;
+			children = (
+				03D0E06921803FB200C6D75A /* ResendCodeView.swift */,
+				03D0E06A21803FB200C6D75A /* ResendCodeView.xib */,
+			);
+			path = ResendCodeView;
+			sourceTree = "<group>";
+		};
+		B49B9A1FF8F11BA6A202E727 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0524524A500EFA90E81CECD /* Pods_Tinder.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4D186084E42A88426A5A9DE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7A138CD78A3245CA50EF1083 /* Pods-Tinder.debug.xcconfig */,
+				B334054E69C59A329513C173 /* Pods-Tinder.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		036CDD632146968D0019804E /* Tinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 036CDD762146968F0019804E /* Build configuration list for PBXNativeTarget "Tinder" */;
+			buildPhases = (
+				ED7DEFB0948268ABCAE2F466 /* [CP] Check Pods Manifest.lock */,
+				036CDD602146968D0019804E /* Sources */,
+				036CDD612146968D0019804E /* Frameworks */,
+				036CDD622146968D0019804E /* Resources */,
+				02DC15A60BA26C7DFDC7EAA9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tinder;
+			productName = Tinder;
+			productReference = 036CDD642146968D0019804E /* Tinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		036CDD5C2146968D0019804E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Azamat Kushmanov";
+				TargetAttributes = {
+					036CDD632146968D0019804E = {
+						CreatedOnToolsVersion = 9.4.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 036CDD5F2146968D0019804E /* Build configuration list for PBXProject "Tinder" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 036CDD5B2146968D0019804E;
+			productRefGroup = 036CDD652146968D0019804E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				036CDD632146968D0019804E /* Tinder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		036CDD622146968D0019804E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				036CDD9E2146A9200019804E /* Raleway-ExtraLight-Italic.ttf in Resources */,
+				036CDDA52146A9200019804E /* Raleway-Thin-Italic.ttf in Resources */,
+				0348DFD0215A9C68004A0D00 /* Employer.storyboard in Resources */,
+				039565E1215955DF004DFF17 /* ProfileEducationTVCell.xib in Resources */,
+				035AB8E6216E6D8800AF57C5 /* MessageTVCell.xib in Resources */,
+				033BD42921593FA800E85BED /* HolderView.xib in Resources */,
+				036CDDA22146A9200019804E /* Raleway-Bold.ttf in Resources */,
+				036CDDA12146A9200019804E /* Raleway-SemiBold-Italic.ttf in Resources */,
+				2E45F097215A9ABE00C78653 /* AddMoreTVCell.xib in Resources */,
+				0319C840215B81E5005A6D4C /* EmployeeKolodaView.xib in Resources */,
+				031E04F0214E532E00F4ED74 /* ApplicationCell.xib in Resources */,
+				033BD42F215947C800E85BED /* ChatTVCell.xib in Resources */,
+				036CDD992146A9200019804E /* Raleway-Black-Italic.ttf in Resources */,
+				036CDD9D2146A9200019804E /* Raleway-Medium.ttf in Resources */,
+				033BD4332159519D00E85BED /* ProfileEducationHeaderTVCell.xib in Resources */,
+				037A1946217337E3003591A4 /* FIlterSphereHeaderTVCell.xib in Resources */,
+				039F09392154EF9C00651FC5 /* VacancyTVCell.xib in Resources */,
+				036CDDA02146A9200019804E /* Raleway-Regular.ttf in Resources */,
+				0323796A215373AA00566855 /* VacancyKolodaView.xib in Resources */,
+				039F09332154BC3600651FC5 /* Employee.storyboard in Resources */,
+				035AB8F1216E8C1500AF57C5 /* DayHeaderView.xib in Resources */,
+				035AB8F6216F170A00AF57C5 /* ChatNavigationView.xib in Resources */,
+				031E04F2214E733200F4ED74 /* Settings.storyboard in Resources */,
+				036CDD722146968F0019804E /* LaunchScreen.storyboard in Resources */,
+				036CDD7A214699DE0019804E /* GoogleService-Info.plist in Resources */,
+				03207EEC214AC87D003EDF7C /* CountriesTableViewCell.xib in Resources */,
+				039565DD2159552A004DFF17 /* ProfileExperienceHeaderTVCell.xib in Resources */,
+				0348DFDB215B4E0F004A0D00 /* CompanyVacanciesHeaderTVCell.xib in Resources */,
+				2E6BB2DA214D2AA600D9FAB6 /* SignUp.storyboard in Resources */,
+				036CDD9B2146A9200019804E /* Raleway-Regular-Italic.ttf in Resources */,
+				034BEC412170B568006A68EC /* FilterSphereTVCell.xib in Resources */,
+				036CDD6F2146968F0019804E /* Assets.xcassets in Resources */,
+				039F093D2154F2DE00651FC5 /* VacancyAboutCompanyTVCell.xib in Resources */,
+				036CDD972146A9200019804E /* Raleway-Light.ttf in Resources */,
+				0348DFD7215B3EE4004A0D00 /* CompanyVacancyCell.xib in Resources */,
+				037A194221732184003591A4 /* FilterSalaryTVCell.xib in Resources */,
+				036CDD9A2146A9200019804E /* Raleway-Thin.ttf in Resources */,
+				2EFCA17F2157F29E00B402BA /* EducationTVCell.xib in Resources */,
+				036CDDA62146A9200019804E /* Raleway-Light-Italic.ttf in Resources */,
+				036CDDA72146A9200019804E /* Raleway-ExtraBold-Italic.ttf in Resources */,
+				03207EE6214AC7BD003EDF7C /* countries.txt in Resources */,
+				2E58C57E214D53FD00E13FD6 /* ExperienceTVCell.xib in Resources */,
+				036CDDA42146A9200019804E /* Raleway-ExtraLight.ttf in Resources */,
+				036CDD982146A9200019804E /* Raleway-Black.ttf in Resources */,
+				036CDD962146A9200019804E /* Raleway-Bold-Italic.ttf in Resources */,
+				036CDD9C2146A9200019804E /* Raleway-SemiBold.ttf in Resources */,
+				035AB8EA216E6F8500AF57C5 /* MyMessageTVCell.xib in Resources */,
+				2EFCA17E2157D15500B402BA /* ChooseItemTVCell.xib in Resources */,
+				036CDDA32146A9200019804E /* Raleway-ExtraBold.ttf in Resources */,
+				036CDD7C21469A110019804E /* Login.storyboard in Resources */,
+				036CDD6D2146968E0019804E /* Main.storyboard in Resources */,
+				03D0E06C21803FB200C6D75A /* ResendCodeView.xib in Resources */,
+				037A193E21730EBF003591A4 /* AboutCompanyCardTVCell.xib in Resources */,
+				036CDD9F2146A9200019804E /* Raleway-Medium-Italic.ttf in Resources */,
+				033BD425215938F000E85BED /* AboutCompanyTVCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02DC15A60BA26C7DFDC7EAA9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tinder/Pods-Tinder-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tinder/Pods-Tinder-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tinder/Pods-Tinder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED7DEFB0948268ABCAE2F466 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tinder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		036CDD602146968D0019804E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				037B62B3214D518900B359B6 /* EducationTVCell.swift in Sources */,
+				031E04F6214E7A3800F4ED74 /* AboutAppTVC.swift in Sources */,
+				036053E92167BC150001DE0B /* Work.swift in Sources */,
+				2EFCA17A2157D08C00B402BA /* ChooseItemTVC.swift in Sources */,
+				2E58C57A214D39BA00E13FD6 /* SignupInfoTVC.swift in Sources */,
+				2E45F096215A9ABE00C78653 /* AddMoreTVCell.swift in Sources */,
+				03C426612161D5C90030C2DB /* Progress.swift in Sources */,
+				036053E72167B1FD0001DE0B /* Education.swift in Sources */,
+				033C31C8215DF6A300E23639 /* CloudStoreManager.swift in Sources */,
+				03C4265D2161D5C90030C2DB /* RangeUISliderDelegate.swift in Sources */,
+				0319C83F215B81E5005A6D4C /* EmployeeKolodaView.swift in Sources */,
+				03BA49D6214D1F5F00957C59 /* ApplicationsTVC.swift in Sources */,
+				03207EE8214AC837003EDF7C /* CountriesTVC.swift in Sources */,
+				0324E24F216B868D00E75402 /* Chat.swift in Sources */,
+				2EFCA17D2157D15500B402BA /* СhooseItemTVCell.swift in Sources */,
+				0319C83C215B7CF9005A6D4C /* EmployerVacancyVC.swift in Sources */,
+				03207EED214AC87D003EDF7C /* CountriesTableViewCell.swift in Sources */,
+				0348DFDD215B5F43004A0D00 /* EmployerTBC.swift in Sources */,
+				035AB8E0216E693E00AF57C5 /* ChatVC.swift in Sources */,
+				0348DFD6215B3EE4004A0D00 /* CompanyVacancyCell.swift in Sources */,
+				030B7BBF2168BA9D00DBF903 /* Application.swift in Sources */,
+				036CDD6A2146968E0019804E /* SplashVC.swift in Sources */,
+				032124F72162755700C09423 /* Region.swift in Sources */,
+				0323796C21537FF700566855 /* VacanciesVC.swift in Sources */,
+				0348DFD2215A9CB0004A0D00 /* EmployerVacanciesVC.swift in Sources */,
+				033C31C5215DE46C00E23639 /* SelectVacancySheduleTVC.swift in Sources */,
+				033C31CA215E038100E23639 /* SelectVacancySpheresTVC.swift in Sources */,
+				033C31CC215E067900E23639 /* Sphere.swift in Sources */,
+				0324E251216B87C600E75402 /* Message.swift in Sources */,
+				036053EB21686D3E0001DE0B /* Employee.swift in Sources */,
+				0319C846215B93A2005A6D4C /* EmployeeDetailVC.swift in Sources */,
+				033C31BB215D1F3400E23639 /* CreateVacancyTVC.swift in Sources */,
+				03C4266621626C8B0030C2DB /* CreateCompanyTVC.swift in Sources */,
+				033C31B8215D17B300E23639 /* SelectVacancySphereTVCell.swift in Sources */,
+				031E04EF214E532E00F4ED74 /* ApplicationCell.swift in Sources */,
+				033BD42821593FA800E85BED /* HolderView.swift in Sources */,
+				0319C842215B8865005A6D4C /* VacancyApplicationsVC.swift in Sources */,
+				035AB8E9216E6F8500AF57C5 /* MyMessageTVCell.swift in Sources */,
+				03D0E06B21803FB200C6D75A /* ResendCodeView.swift in Sources */,
+				035AB8F5216F170A00AF57C5 /* ChatNavigationView.swift in Sources */,
+				03C426602161D5C90030C2DB /* Bar.swift in Sources */,
+				03BA49D4214D186B00957C59 /* EmployeeTBC.swift in Sources */,
+				036CDD8221469F4C0019804E /* Extensions.swift in Sources */,
+				03C4265E2161D5C90030C2DB /* Gradient.swift in Sources */,
+				037A194121732184003591A4 /* FilterSalaryTVCell.swift in Sources */,
+				034BEC3B216F4307006A68EC /* APNSManager.swift in Sources */,
+				033BD421215937B000E85BED /* AboutCompanyVC.swift in Sources */,
+				030B7BC12168BC9C00DBF903 /* BDManager.swift in Sources */,
+				03C4265F2161D5C90030C2DB /* Knob.swift in Sources */,
+				032124FB216281DB00C09423 /* FileUploaderManager.swift in Sources */,
+				033BD42B2159422D00E85BED /* ChatsTVC.swift in Sources */,
+				035AB8EC216E726500AF57C5 /* Group.swift in Sources */,
+				033BD424215938F000E85BED /* AboutCompanyTVCell.swift in Sources */,
+				03BA49D1214D0CE200957C59 /* CodeConfirmationVC.swift in Sources */,
+				03237969215373AA00566855 /* VacancyKolodaView.swift in Sources */,
+				2E6BB2D8214D24A600D9FAB6 /* ExperienceTVCell.swift in Sources */,
+				033BD42E215947C800E85BED /* ChatTVCell.swift in Sources */,
+				035AB8F0216E8C1500AF57C5 /* DayHeaderView.swift in Sources */,
+				03C426642161DBB20030C2DB /* SelectVacancyPriceTVC.swift in Sources */,
+				032124FF2163927000C09423 /* Vacancy.swift in Sources */,
+				034BEC402170B568006A68EC /* FilterSphereTVCell.swift in Sources */,
+				03207EEF214AC925003EDF7C /* Country.swift in Sources */,
+				037811202174762B00B6669E /* UserAgreementsTVC.swift in Sources */,
+				034BEC3D2170B3AB006A68EC /* VacancyFilterTVC.swift in Sources */,
+				037A193D21730EBF003591A4 /* AboutCompanyCardTVCell.swift in Sources */,
+				039565DC2159552A004DFF17 /* ProfileExperienceHeaderTVCell.swift in Sources */,
+				039565E0215955DF004DFF17 /* ProfileEducationTVCell.swift in Sources */,
+				033BD4322159519D00E85BED /* ProfileEducationHeaderTVCell.swift in Sources */,
+				036CDD682146968E0019804E /* AppDelegate.swift in Sources */,
+				2E58C57C214D43D000E13FD6 /* SwitchEmployeTypeVC.swift in Sources */,
+				0319C844215B8F1E005A6D4C /* EmployerChatsTVC.swift in Sources */,
+				039F09352154E98F00651FC5 /* VacancyDetailVC.swift in Sources */,
+				034BEC39216F364B006A68EC /* EmployeeInfoTVC.swift in Sources */,
+				035AB8E5216E6D8800AF57C5 /* MessageTVCell.swift in Sources */,
+				032124F9216277C100C09423 /* Employer.swift in Sources */,
+				03AFD1BE21483005009E060E /* WelcomeVC.swift in Sources */,
+				03C426622161D5C90030C2DB /* RangeUISlider.swift in Sources */,
+				0348DFDA215B4E0F004A0D00 /* CompanyVacanciesHeaderTVCell.swift in Sources */,
+				037A1945217337E3003591A4 /* FIlterSphereHeaderTVCell.swift in Sources */,
+				03207EE4214A8776003EDF7C /* LoginVC.swift in Sources */,
+				039F093C2154F2DE00651FC5 /* VacancyAboutCompanyTVCell.swift in Sources */,
+				039F09382154EF9C00651FC5 /* VacancyTVCell.swift in Sources */,
+				039565E32159597C004DFF17 /* EmployeeProfileVC.swift in Sources */,
+				037811432175ADFB00B6669E /* PushNotification.swift in Sources */,
+				03207EF1214ACB8F003EDF7C /* Constants.swift in Sources */,
+				031E04F4214E767700F4ED74 /* SettingsTVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		036CDD6B2146968E0019804E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				036CDD6C2146968E0019804E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		036CDD702146968F0019804E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				036CDD712146968F0019804E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		036CDD742146968F0019804E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		036CDD752146968F0019804E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		036CDD772146968F0019804E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A138CD78A3245CA50EF1083 /* Pods-Tinder.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Tinder/Tinder.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AWXA559AVD;
+				INFOPLIST_FILE = Tinder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kg.tinder.job;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		036CDD782146968F0019804E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B334054E69C59A329513C173 /* Pods-Tinder.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Tinder/Tinder.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AWXA559AVD;
+				INFOPLIST_FILE = Tinder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kg.tinder.job;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		036CDD5F2146968D0019804E /* Build configuration list for PBXProject "Tinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				036CDD742146968F0019804E /* Debug */,
+				036CDD752146968F0019804E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		036CDD762146968F0019804E /* Build configuration list for PBXNativeTarget "Tinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				036CDD772146968F0019804E /* Debug */,
+				036CDD782146968F0019804E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 036CDD5C2146968D0019804E /* Project object */;
+}

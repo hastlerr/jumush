@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Raleway-Regular.ttf">
+            <string>Raleway-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="87" id="B5t-cE-pkP" customClass="MyMessageTVCell" customModule="Tinder" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="353" height="87"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="B5t-cE-pkP" id="XhL-rk-hpf">
+                <rect key="frame" x="0.0" y="0.0" width="353" height="86.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7tB-87-pcc">
+                        <rect key="frame" x="268" y="5" width="69" height="76.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NiL-7L-cjI">
+                                <rect key="frame" x="10" y="10" width="49" height="36.5"/>
+                                <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="13:05" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Ti-EP-BFP">
+                                <rect key="frame" x="31" y="51.5" width="28" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="15" id="BDB-ED-WRJ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="12"/>
+                                <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_message_sent" translatesAutoresizingMaskIntoConstraints="NO" id="oJy-nc-weV">
+                                <rect key="frame" x="10" y="51.5" width="16" height="15"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.14509803921568626" green="0.19607843137254902" blue="0.29803921568627451" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="NiL-7L-cjI" firstAttribute="top" secondItem="7tB-87-pcc" secondAttribute="top" constant="10" id="1kh-CZ-zuw"/>
+                            <constraint firstItem="oJy-nc-weV" firstAttribute="top" secondItem="3Ti-EP-BFP" secondAttribute="top" id="9G7-B5-j39"/>
+                            <constraint firstItem="oJy-nc-weV" firstAttribute="centerY" secondItem="3Ti-EP-BFP" secondAttribute="centerY" id="OnO-Hn-9Ee"/>
+                            <constraint firstAttribute="trailing" secondItem="3Ti-EP-BFP" secondAttribute="trailing" constant="10" id="YS0-wQ-tCO"/>
+                            <constraint firstItem="3Ti-EP-BFP" firstAttribute="leading" secondItem="oJy-nc-weV" secondAttribute="trailing" constant="5" id="dvR-wY-MF4"/>
+                            <constraint firstAttribute="trailing" secondItem="NiL-7L-cjI" secondAttribute="trailing" constant="10" id="eJi-le-kgZ"/>
+                            <constraint firstItem="oJy-nc-weV" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="7tB-87-pcc" secondAttribute="leading" constant="10" id="fRd-lk-OtP"/>
+                            <constraint firstItem="oJy-nc-weV" firstAttribute="bottom" secondItem="3Ti-EP-BFP" secondAttribute="bottom" id="gWJ-NY-36o"/>
+                            <constraint firstAttribute="bottom" secondItem="3Ti-EP-BFP" secondAttribute="bottom" constant="10" id="ktO-8q-B0S"/>
+                            <constraint firstItem="3Ti-EP-BFP" firstAttribute="top" secondItem="NiL-7L-cjI" secondAttribute="bottom" constant="5" id="xYU-t6-uZR"/>
+                            <constraint firstItem="NiL-7L-cjI" firstAttribute="leading" secondItem="7tB-87-pcc" secondAttribute="leading" constant="10" id="zx9-ES-hSM"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="6"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="7tB-87-pcc" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="XhL-rk-hpf" secondAttribute="leading" constant="80" id="FgZ-nw-NC3"/>
+                    <constraint firstAttribute="trailing" secondItem="7tB-87-pcc" secondAttribute="trailing" constant="16" id="gXM-bZ-41f"/>
+                    <constraint firstItem="7tB-87-pcc" firstAttribute="top" secondItem="XhL-rk-hpf" secondAttribute="top" constant="5" id="ohu-Ch-itQ"/>
+                    <constraint firstAttribute="bottom" secondItem="7tB-87-pcc" secondAttribute="bottom" constant="5" id="pDF-qj-BhV"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="dHX-9o-NaQ"/>
+            <connections>
+                <outlet property="contentLabel" destination="NiL-7L-cjI" id="Zf7-1m-CaB"/>
+                <outlet property="dateLabel" destination="3Ti-EP-BFP" id="LTE-e5-R5T"/>
+                <outlet property="statusImage" destination="oJy-nc-weV" id="Rub-uE-AQo"/>
+            </connections>
+            <point key="canvasLocation" x="164" y="183.05847076461771"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ic_message_sent" width="16" height="16"/>
+    </resources>
+</document>

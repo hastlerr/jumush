@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Raleway-Regular.ttf">
+            <string>Raleway-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="blue" indentationWidth="10" rowHeight="75" id="KGk-i7-Jjw" customClass="FilterSphereTVCell" customModule="Tinder" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="385" height="75"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="385" height="74.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bdu-qb-Vi9">
+                        <rect key="frame" x="20" y="11" width="40" height="40"/>
+                        <color key="backgroundColor" red="0.86274509803921573" green="0.87450980392156863" blue="0.90196078431372551" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="EjR-x2-b1e"/>
+                            <constraint firstAttribute="width" secondItem="Bdu-qb-Vi9" secondAttribute="height" multiplier="1:1" id="cmJ-c8-p7x"/>
+                        </constraints>
+                    </view>
+                    <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_sphere_selected" translatesAutoresizingMaskIntoConstraints="NO" id="3QF-q2-aay">
+                        <rect key="frame" x="25" y="16" width="30" height="30"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FKX-dg-YxK">
+                        <rect key="frame" x="76" y="21.5" width="289" height="19"/>
+                        <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="16"/>
+                        <color key="textColor" red="0.14509803921568626" green="0.19607843137254902" blue="0.29803921568627451" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="FKX-dg-YxK" secondAttribute="trailing" constant="20" id="4Xm-sK-oBH"/>
+                    <constraint firstItem="3QF-q2-aay" firstAttribute="bottom" secondItem="Bdu-qb-Vi9" secondAttribute="bottom" constant="-5" id="DOd-R0-Oze"/>
+                    <constraint firstItem="3QF-q2-aay" firstAttribute="top" secondItem="Bdu-qb-Vi9" secondAttribute="top" constant="5" id="Dt9-pH-wXV"/>
+                    <constraint firstItem="Bdu-qb-Vi9" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="HcI-tT-4QM"/>
+                    <constraint firstAttribute="bottom" secondItem="Bdu-qb-Vi9" secondAttribute="bottom" constant="11" id="TQv-oJ-Qk4"/>
+                    <constraint firstItem="FKX-dg-YxK" firstAttribute="leading" secondItem="Bdu-qb-Vi9" secondAttribute="trailing" constant="16" id="oFV-WE-9dq"/>
+                    <constraint firstItem="FKX-dg-YxK" firstAttribute="centerY" secondItem="Bdu-qb-Vi9" secondAttribute="centerY" id="raE-fl-TJd"/>
+                    <constraint firstItem="3QF-q2-aay" firstAttribute="leading" secondItem="Bdu-qb-Vi9" secondAttribute="leading" constant="5" id="rbz-WE-Ycc"/>
+                    <constraint firstItem="3QF-q2-aay" firstAttribute="trailing" secondItem="Bdu-qb-Vi9" secondAttribute="trailing" constant="-5" id="sg5-hv-GKT"/>
+                    <constraint firstItem="Bdu-qb-Vi9" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="11" id="y34-eX-UBX"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <inset key="separatorInset" minX="75" minY="0.0" maxX="0.0" maxY="0.0"/>
+            <connections>
+                <outlet property="circleBackgroundView" destination="Bdu-qb-Vi9" id="bdK-iG-nSP"/>
+                <outlet property="selectedIcon" destination="3QF-q2-aay" id="J1j-0q-fxg"/>
+                <outlet property="sphereNameLabel" destination="FKX-dg-YxK" id="ZFO-g9-ohM"/>
+            </connections>
+            <point key="canvasLocation" x="189.59999999999999" y="167.76611694152925"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ic_sphere_selected" width="30" height="30"/>
+    </resources>
+</document>

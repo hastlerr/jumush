@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="cI0-Hd-hzl" customClass="DayHeaderView" customModule="Tinder" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="197" height="47"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fcp-2N-tZ8">
+                    <rect key="frame" x="67.5" y="14.5" width="62.5" height="18"/>
+                    <color key="backgroundColor" red="0.14509803921568626" green="0.19607843137254902" blue="0.29803921568627451" alpha="0.90210295376712324" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="18" id="Rpj-a7-Dwl"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="8"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Today" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DSR-5O-ysS">
+                    <rect key="frame" x="82.5" y="17.5" width="32.5" height="12"/>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="11"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="Fcp-2N-tZ8" firstAttribute="leading" secondItem="DSR-5O-ysS" secondAttribute="leading" constant="-15" id="0hJ-5g-QjL"/>
+                <constraint firstItem="Fcp-2N-tZ8" firstAttribute="bottom" secondItem="DSR-5O-ysS" secondAttribute="bottom" constant="3" id="0t1-Ws-SKO"/>
+                <constraint firstItem="Fcp-2N-tZ8" firstAttribute="top" secondItem="DSR-5O-ysS" secondAttribute="top" constant="-3" id="K6W-NG-MSI"/>
+                <constraint firstItem="DSR-5O-ysS" firstAttribute="centerX" secondItem="ubz-hc-DFO" secondAttribute="centerX" id="Rcc-Er-PF0"/>
+                <constraint firstItem="DSR-5O-ysS" firstAttribute="centerY" secondItem="ubz-hc-DFO" secondAttribute="centerY" id="W5o-Yn-ULx"/>
+                <constraint firstItem="Fcp-2N-tZ8" firstAttribute="trailing" secondItem="DSR-5O-ysS" secondAttribute="trailing" constant="15" id="lyd-rt-XcS"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="ubz-hc-DFO"/>
+            <connections>
+                <outlet property="dayLabel" destination="DSR-5O-ysS" id="Mh3-22-a8D"/>
+            </connections>
+            <point key="canvasLocation" x="-45" y="-118"/>
+        </view>
+    </objects>
+</document>

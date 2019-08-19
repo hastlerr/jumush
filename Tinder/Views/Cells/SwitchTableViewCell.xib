@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Raleway-Black.ttf">
+            <string>Raleway-Black</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="56" id="KGk-i7-Jjw" customClass="SwitchTableViewCell" customModule="Tinder" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="325" height="72"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="325" height="71.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uTJ-M8-TOW">
+                        <rect key="frame" x="256" y="24.5" width="51" height="31"/>
+                        <color key="onTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                        <connections>
+                            <action selector="switchTapped:" destination="KGk-i7-Jjw" eventType="valueChanged" id="jVr-DU-izI"/>
+                        </connections>
+                    </switch>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Образование" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nEd-nN-kpn">
+                        <rect key="frame" x="20" y="24.5" width="136" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="24" id="57G-Qq-RCE"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Raleway-Black" family="Raleway" pointSize="20"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oEJ-a4-Lfn">
+                        <rect key="frame" x="0.0" y="0.0" width="325" height="4.5"/>
+                        <color key="backgroundColor" red="0.92156862745098034" green="0.93333333333333335" blue="0.96078431372549022" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="4" id="ch9-SD-uhM"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="nEd-nN-kpn" secondAttribute="bottom" constant="24" id="3R0-8T-LI5"/>
+                    <constraint firstAttribute="trailing" secondItem="oEJ-a4-Lfn" secondAttribute="trailing" id="6rv-3p-NPe"/>
+                    <constraint firstItem="nEd-nN-kpn" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="24" id="KHR-bZ-dGI"/>
+                    <constraint firstItem="oEJ-a4-Lfn" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="WUT-Hs-tCQ"/>
+                    <constraint firstItem="oEJ-a4-Lfn" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="c9M-ea-lrD"/>
+                    <constraint firstItem="uTJ-M8-TOW" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="24" id="gvi-2E-2IW"/>
+                    <constraint firstItem="nEd-nN-kpn" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="luX-Qb-dKf"/>
+                    <constraint firstAttribute="trailing" secondItem="uTJ-M8-TOW" secondAttribute="trailing" constant="20" id="t2J-ek-t4V"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="switchTitle" destination="nEd-nN-kpn" id="dek-61-q84"/>
+            </connections>
+            <point key="canvasLocation" x="50.399999999999999" y="-289.65517241379314"/>
+        </tableViewCell>
+    </objects>
+</document>

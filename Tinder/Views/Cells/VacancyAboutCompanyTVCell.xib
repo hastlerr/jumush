@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Raleway-ExtraBold.ttf">
+            <string>Raleway-ExtraBold</string>
+        </array>
+        <array key="Raleway-Regular.ttf">
+            <string>Raleway-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="297" id="KGk-i7-Jjw" customClass="VacancyAboutCompanyTVCell" customModule="Tinder" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="514" height="297"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="514" height="296.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tFM-mn-gcH">
+                        <rect key="frame" x="0.0" y="0.0" width="514" height="15"/>
+                        <color key="backgroundColor" red="0.92156862745098034" green="0.93333333333333335" blue="0.96078431372549022" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="v43-ok-KAO"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="О КОМПАНИИ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cbf-Ec-GD0">
+                        <rect key="frame" x="20" y="31" width="474" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="MKs-r0-sIX"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Raleway-ExtraBold" family="Raleway" pointSize="10"/>
+                        <color key="textColor" red="0.14509803921568626" green="0.19607843137254902" blue="0.29803921568627451" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u4S-j4-NoM">
+                        <rect key="frame" x="20" y="61" width="474" height="0.0"/>
+                        <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="14"/>
+                        <color key="textColor" red="0.46666666670000001" green="0.50196078430000002" blue="0.56862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="cbf-Ec-GD0" secondAttribute="trailing" constant="20" id="2II-ZG-nzq"/>
+                    <constraint firstItem="u4S-j4-NoM" firstAttribute="top" secondItem="cbf-Ec-GD0" secondAttribute="bottom" constant="15" id="5Ag-cj-v5i"/>
+                    <constraint firstItem="tFM-mn-gcH" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="dwx-oD-CHY"/>
+                    <constraint firstItem="u4S-j4-NoM" firstAttribute="trailing" secondItem="cbf-Ec-GD0" secondAttribute="trailing" id="gm5-6c-V2j"/>
+                    <constraint firstAttribute="trailing" secondItem="tFM-mn-gcH" secondAttribute="trailing" id="hTb-Ru-chn"/>
+                    <constraint firstItem="cbf-Ec-GD0" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="j88-FX-nHu"/>
+                    <constraint firstItem="u4S-j4-NoM" firstAttribute="leading" secondItem="cbf-Ec-GD0" secondAttribute="leading" id="jF5-jE-5ZO"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="u4S-j4-NoM" secondAttribute="bottom" constant="10" id="oph-42-LLR"/>
+                    <constraint firstItem="cbf-Ec-GD0" firstAttribute="top" secondItem="tFM-mn-gcH" secondAttribute="bottom" constant="16" id="q5y-4z-1Pq"/>
+                    <constraint firstItem="tFM-mn-gcH" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="uYC-rW-Tph"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="aboutCompanyLabel" destination="u4S-j4-NoM" id="I6x-C7-FcV"/>
+            </connections>
+            <point key="canvasLocation" x="131" y="180.5"/>
+        </tableViewCell>
+    </objects>
+</document>

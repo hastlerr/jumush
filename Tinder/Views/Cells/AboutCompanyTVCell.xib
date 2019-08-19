@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Raleway-Bold.ttf">
+            <string>Raleway-Bold</string>
+        </array>
+        <array key="Raleway-ExtraBold.ttf">
+            <string>Raleway-ExtraBold</string>
+        </array>
+        <array key="Raleway-Regular.ttf">
+            <string>Raleway-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="522" id="qni-He-HOK" customClass="AboutCompanyTVCell" customModule="Tinder" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="514" height="522"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="qni-He-HOK" id="sme-dG-G0s">
+                <rect key="frame" x="0.0" y="0.0" width="514" height="521.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vt0-pV-UN3">
+                        <rect key="frame" x="217" y="22" width="80" height="80"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="oEc-b9-Qgy">
+                                <rect key="frame" x="5" y="5" width="70" height="70"/>
+                                <color key="backgroundColor" red="0.46666666670000001" green="0.50196078430000002" blue="0.56862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="35"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="oEc-b9-Qgy" secondAttribute="bottom" constant="5" id="2cn-Ze-R7k"/>
+                            <constraint firstItem="oEc-b9-Qgy" firstAttribute="top" secondItem="Vt0-pV-UN3" secondAttribute="top" constant="5" id="4VK-bh-EbY"/>
+                            <constraint firstItem="oEc-b9-Qgy" firstAttribute="leading" secondItem="Vt0-pV-UN3" secondAttribute="leading" constant="5" id="6BJ-9G-Lav"/>
+                            <constraint firstAttribute="trailing" secondItem="oEc-b9-Qgy" secondAttribute="trailing" constant="5" id="DJi-Gb-ZDT"/>
+                            <constraint firstAttribute="width" constant="80" id="TZK-h3-rDq"/>
+                            <constraint firstAttribute="width" secondItem="Vt0-pV-UN3" secondAttribute="height" multiplier="1:1" id="Vu7-1l-bH7"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="40"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" red="0.86274509799999999" green="0.87450980389999999" blue="0.90196078430000004" alpha="1" colorSpace="calibratedRGB"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sht-u7-wpc">
+                        <rect key="frame" x="257" y="133" width="0.0" height="16.5"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="16.5" id="ita-G8-prH"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Raleway-Bold" family="Raleway" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="О КОМПАНИИ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sgF-Sa-y0n">
+                        <rect key="frame" x="20" y="189.5" width="474" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="vbm-KO-96D"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Raleway-ExtraBold" family="Raleway" pointSize="10"/>
+                        <color key="textColor" red="0.1450980392" green="0.1960784314" blue="0.29803921570000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kCL-NM-Pn8">
+                        <rect key="frame" x="20" y="219.5" width="474" height="0.0"/>
+                        <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="14"/>
+                        <color key="textColor" red="0.46666666670000001" green="0.50196078430000002" blue="0.56862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="kCL-NM-Pn8" firstAttribute="top" secondItem="sgF-Sa-y0n" secondAttribute="bottom" constant="15" id="3gQ-1M-w8Z"/>
+                    <constraint firstItem="sgF-Sa-y0n" firstAttribute="leading" secondItem="sme-dG-G0s" secondAttribute="leading" constant="20" id="FXu-65-Bym"/>
+                    <constraint firstAttribute="trailing" secondItem="sgF-Sa-y0n" secondAttribute="trailing" constant="20" id="RYA-M3-p3f"/>
+                    <constraint firstItem="kCL-NM-Pn8" firstAttribute="leading" secondItem="sgF-Sa-y0n" secondAttribute="leading" id="Tfi-za-u9P"/>
+                    <constraint firstItem="Vt0-pV-UN3" firstAttribute="width" secondItem="Vt0-pV-UN3" secondAttribute="height" multiplier="1:1" id="b5h-La-dMd"/>
+                    <constraint firstItem="Vt0-pV-UN3" firstAttribute="top" secondItem="sme-dG-G0s" secondAttribute="top" constant="22" id="cUY-tR-PGL"/>
+                    <constraint firstItem="kCL-NM-Pn8" firstAttribute="trailing" secondItem="sgF-Sa-y0n" secondAttribute="trailing" id="dvZ-Cv-cDr"/>
+                    <constraint firstItem="sgF-Sa-y0n" firstAttribute="top" secondItem="Sht-u7-wpc" secondAttribute="bottom" constant="40" id="hHW-a9-0GZ"/>
+                    <constraint firstItem="Vt0-pV-UN3" firstAttribute="centerX" secondItem="sme-dG-G0s" secondAttribute="centerX" id="oHY-UV-EYh"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="kCL-NM-Pn8" secondAttribute="bottom" constant="10" id="odR-K7-QcX"/>
+                    <constraint firstItem="Sht-u7-wpc" firstAttribute="top" secondItem="Vt0-pV-UN3" secondAttribute="bottom" constant="31" id="pd1-R1-5qu"/>
+                    <constraint firstItem="Sht-u7-wpc" firstAttribute="centerX" secondItem="sme-dG-G0s" secondAttribute="centerX" id="vpN-cH-hb7"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="HeQ-S1-NuP"/>
+            <connections>
+                <outlet property="companyAboutLabel" destination="kCL-NM-Pn8" id="9MK-cB-LGe"/>
+                <outlet property="companyImageView" destination="oEc-b9-Qgy" id="uyG-D5-bMv"/>
+                <outlet property="companyNameLabel" destination="Sht-u7-wpc" id="ZrN-tI-tRr"/>
+            </connections>
+            <point key="canvasLocation" x="129.59999999999999" y="101.64917541229386"/>
+        </tableViewCell>
+    </objects>
+</document>
